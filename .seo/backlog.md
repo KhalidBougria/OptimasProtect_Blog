@@ -18,10 +18,10 @@ Priorité donnée aux piliers 2 et 3 pour rééquilibrer le ratio hebdomadaire (
 5. **Main courante électronique : ce qu'elle change par rapport au registre papier** — pilier 2, cluster 6.
 6. **RH et opérationnel des agents de sécurité** (pilier 3, ratio ~10 %) — sujet précis à définir au prochain run de veille ; éviter frontalement « salaire ADS », « recrutement agent de sécurité », « formation gardiennage » (têtes de requête exclues §4.3).
 
-## Bloqué — en attente de décision humaine
+## Débloqué le 2026-08-22
 
-- **Hub conformité / cluster 8 (Loi n°35-09 et cahiers des charges).** Écart factuel constaté ce run entre le numéro de loi cité dans le prompt de référence (35-09) et le texte réellement identifié par la recherche (loi n° 27-06). Aucun article réglementaire ne doit être produit tant que ce point n'est pas tranché par un humain. Voir alerte haute n°2 dans le rapport du 2026-08-22 et dans `.seo/repo-map.md`.
-- **Cahier des charges gardiennage / appel d'offres sécurité privée Maroc (cluster 7).** Jalon intermédiaire cité au §9, mais touche potentiellement au même risque de citation réglementaire imprécise (exigences de cahiers des charges publics) : à traiter avec prudence, en s'appuyant uniquement sur des exemples réels du portail marchespublics.gov.ma, sans jamais citer de numéro de loi tant que l'alerte n°2 n'est pas levée.
+- **Hub conformité / cluster 8 (Loi n°27-06 et cahiers des charges).** L'écart factuel constaté le 2026-08-22 (prompt citant « 35-09 » au lieu de « 27-06 ») a été confirmé et corrigé par l'utilisateur : le prompt de référence cite désormais la Loi n°27-06 (PR #3 mergée sur `.seo/agent-prompt.md`). Le hub conformité et le cluster 8 peuvent être produits aux prochains runs, en respectant le régime renforcé §3.3 (PR uniquement, jamais de publication automatique, chaque affirmation datée et sourcée via le Bulletin Officiel / SGG).
+- **Cahier des charges gardiennage / appel d'offres sécurité privée Maroc (cluster 7).** Jalon intermédiaire cité au §9. Peut désormais s'appuyer sur la Loi n°27-06 si pertinent, en plus des exemples réels du portail marchespublics.gov.ma, toujours avec datation et lien source.
 
 ## Rappel technique
 
