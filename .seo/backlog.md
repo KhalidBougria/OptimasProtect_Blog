@@ -1,27 +1,26 @@
 # Backlog éditorial — Optimas Protect
 
-Dernière mise à jour : 2026-08-22.
+Dernière mise à jour : 2026-08-23.
 
 ## Publiés / en attente de relecture (PR ouvertes)
 
 - `controle-de-ronde-nfc-gardiennage-maroc` — pilier 1 — PR #1 (draft) — hub pilier 1.
 - `prix-logiciel-gardiennage-maroc` — pilier 1 — PR #2 (draft) — hub prix.
+- `main-courante-electronique-maroc` — pilier 2 — PR #4 (draft) — cluster 6, futur hub pilier 2.
+- `portail-client-securite-privee-maroc` — pilier 2 — PR #5 (draft) — premier article du futur hub pilier 2 (gestion des incidents / portail client).
+
+Les 4 PR sont toujours ouvertes, aucune n'a encore été relue ni mergée par un humain.
 
 ## Sujets retenus, à produire aux prochains runs
 
-Priorité donnée aux piliers 2 et 3 pour rééquilibrer le ratio hebdomadaire (2 articles pilier 1 déjà produits cette semaine).
+Priorité donnée aux piliers 2 et 3 pour continuer à rééquilibrer le ratio hebdomadaire (2 articles pilier 1 et 2 articles pilier 2 produits à ce jour cette semaine, 0 pilier 3).
 
-1. **Application de pointage ADS au Maroc : ce qu'un responsable d'exploitation doit vérifier** — pilier 1, cluster 3. Score estimé provisoire : à confirmer au prochain run (intention forte, faisabilité bonne, angle « application » distinct de l'angle « contrôle de ronde » déjà couvert, anti-cannibalisation à vérifier avant rédaction).
-2. **Modèle de rapport de ronde : ce qu'il doit contenir pour tenir devant un client** — pilier 1, cluster 5 (contenu aimant, jalon intermédiaire cité au §9 du prompt de référence). Angle : livrer une structure de rapport concrète (checklist) sans donner un template Optimas Protect téléchargeable, uniquement du contenu.
-3. **Gestion des incidents et portail client : ce que le donneur d'ordre voit** — pilier 2 (gestion des incidents / portail client), à prioriser pour équilibrer le ratio. Différenciateur : montée en gamme Business.
-4. **Faux pointage ADS : comment le détecter sans accuser ses agents** — pilier 1/2 croisé, cluster 9. Attention garde-fou §8.2 : pas de ton accusateur envers les agents.
-5. **Main courante électronique : ce qu'elle change par rapport au registre papier** — pilier 2, cluster 6.
-6. **RH et opérationnel des agents de sécurité** (pilier 3, ratio ~10 %) — sujet précis à définir au prochain run de veille ; éviter frontalement « salaire ADS », « recrutement agent de sécurité », « formation gardiennage » (têtes de requête exclues §4.3).
-
-## Débloqué le 2026-08-22
-
-- **Hub conformité / cluster 8 (Loi n°27-06 et cahiers des charges).** L'écart factuel constaté le 2026-08-22 (prompt citant « 35-09 » au lieu de « 27-06 ») a été confirmé et corrigé par l'utilisateur : le prompt de référence cite désormais la Loi n°27-06 (PR #3 mergée sur `.seo/agent-prompt.md`). Le hub conformité et le cluster 8 peuvent être produits aux prochains runs, en respectant le régime renforcé §3.3 (PR uniquement, jamais de publication automatique, chaque affirmation datée et sourcée via le Bulletin Officiel / SGG).
-- **Cahier des charges gardiennage / appel d'offres sécurité privée Maroc (cluster 7).** Jalon intermédiaire cité au §9. Peut désormais s'appuyer sur la Loi n°27-06 si pertinent, en plus des exemples réels du portail marchespublics.gov.ma, toujours avec datation et lien source.
+1. **RH et opérationnel des agents de sécurité : planning et affectation** — pilier 3 (~10 % de l'objectif). Angle défini ce run : « Logiciel de planning pour agents de sécurité : ce qu'il change face à Excel et au tableau papier ». Qualifié par « agent de sécurité » pour éviter la tête de requête générique « logiciel RH » / « logiciel de planning » exclue au §4.3.5. Score estimé provisoire : intention business 3, faisabilité de rank 3, avantage local 3, volume 2 (autocomplete faible : seule « logiciel planning agent de sécurité gratuit » confirmée), fraîcheur 4 → **15/25**. Passe le seuil, à confirmer et rédiger au prochain run. Premier sujet pilier 3 du dépôt.
+2. **Application de pointage ADS au Maroc : ce qu'un responsable d'exploitation doit vérifier** — pilier 1, cluster 3. Aucune confirmation autocomplete ce run (« application pointage ADS » : 0 suggestion). Angle produit distinct du contrôle de ronde déjà publié, anti-cannibalisation à vérifier avant rédaction.
+3. **Modèle de rapport de ronde : ce qu'il doit contenir pour tenir devant un client** — pilier 1, cluster 5 (contenu aimant, jalon intermédiaire cité au §9).
+4. **Faux pointage ADS : comment le détecter sans accuser ses agents** — pilier 1/2 croisé, cluster 9. Aucune confirmation autocomplete ce run. Attention garde-fou §8.2 : pas de ton accusateur envers les agents.
+5. **Cahier des charges gardiennage / appel d'offres sécurité privée Maroc** — cluster 7, hub conformité. Débloqué depuis la correction Loi n°27-06 du 2026-08-22. Autocomplete confirme « cahier des charges sécurité et gardiennage maroc ». Article réglementaire : reste en PR même en phase 2 (§3.3), chaque affirmation datée et sourcée via le Bulletin Officiel / SGG.
+6. **Obligations Loi n°27-06 pour l'employeur** — cluster 8, hub conformité. Autocomplete confirme une déclinaison pratique (« loi 27 06 relative à la sécurité privée au maroc pdf »). Même régime renforcé que le point 5.
 
 ## Rappel technique
 
