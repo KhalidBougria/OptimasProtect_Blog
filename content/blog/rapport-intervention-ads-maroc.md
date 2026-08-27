@@ -68,7 +68,7 @@ Un rapport d'intervention rédigé sur papier ou envoyé par message reste un do
 
 ## À qui ce modèle ne convient pas
 
-Pour un site à très faible enjeu, sans historique d'incidents et sans client exigeant de suivi formel, un rapport d'intervention structuré avec validation et statut de résolution ajoute une charge disproportionnée par rapport au bénéfice. Une main courante simple, tenue à jour, suffit à documenter les rares événements qui surviennt. La rigueur décrite ici prend tout son sens sur des sites à enjeu réel, ou dès qu'un cahier des charges impose une preuve d'intervention datée.
+Pour un site à très faible enjeu, sans historique d'incidents et sans client exigeant de suivi formel, un rapport d'intervention structuré avec validation et statut de résolution ajoute une charge disproportionnée par rapport au bénéfice. Une main courante simple, tenue à jour, suffit à documenter les rares événements qui surviennent. La rigueur décrite ici prend tout son sens sur des sites à enjeu réel, ou dès qu'un cahier des charges impose une preuve d'intervention datée.
 
 ## Questions fréquentes
 
@@ -92,7 +92,7 @@ OptimasProtect se teste sur un site pilote, sans engagement long. La première r
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "Rapport d'intervention ADS : modèle et contenu au Maro`�,
+  "headline": "Rapport d'intervention ADS : modèle et contenu au Maroc",
   "author": {
     "@type": "Organization",
     "name": "OptimasProtect",
