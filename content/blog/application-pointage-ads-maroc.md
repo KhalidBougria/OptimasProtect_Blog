@@ -54,7 +54,7 @@ Cette dernière question mérite d'être posée systématiquement au Maroc : une
 
 ## Combien coûte une application de pointage ADS au Maroc
 
-Optimas Protect affiche ses prix HT par smartphone et par mois : l'offre Opérations est à 99 MAD HT par smartphone et par mois, l'offre Business à 179 MAD HT par smartphone et par mois, et une offre Enterprise se négocie sur devis pour les grands comptes. Ramené à la journée, cela représente environ 3,3 MAD par jour et par agent équipé pour l'offre Opérations, et environ 6 MAD par jour pour l'offre Business. La facturation est anticipée, mensuelle par défaut, sans engagement de durée.
+OptimasProtect affiche ses prix HT par smartphone et par mois : l'offre Opérations est à 99 MAD HT par smartphone et par mois, l'offre Business à 179 MAD HT par smartphone et par mois, et une offre Enterprise se négocie sur devis pour les grands comptes. Ramené à la journée, cela représente environ 3,3 MAD par jour et par agent équipé pour l'offre Opérations, et environ 6 MAD par jour pour l'offre Business. La facturation est anticipée, mensuelle par défaut, sans engagement de durée.
 
 Le pointage ADS fait partie du socle disponible dès l'offre Opérations ; il n'est pas réservé à l'offre supérieure. Le détail complet des deux offres est disponible dans [Prix d'un logiciel de gardiennage au Maroc](/blog/prix-logiciel-gardiennage-maroc).
 
@@ -81,13 +81,13 @@ La création des comptes agents et le rattachement au planning du site se font e
 
 ---
 
-Optimas Protect se teste sur un site pilote, sans engagement long. La première ronde peut être opérationnelle en moins d'une heure.
+OptimasProtect se teste sur un site pilote, sans engagement long. La première ronde peut être opérationnelle en moins d'une heure.
 
 ```json-ld
 {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  "name": "Optimas Protect",
+  "name": "OptimasProtect",
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Android, iOS",
   "offers": [
