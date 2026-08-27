@@ -51,7 +51,7 @@ Un logiciel de planning se distingue d'un contrôle de ronde ou d'un pointage : 
 
 ## Combien coûte un logiciel de planning pour agents de sécurité au Maroc
 
-Comme pour le contrôle de ronde, les tarifs restent souvent communiqués uniquement sur devis dans ce secteur. Optimas Protect couvre le volet planning et gestion opérationnelle des agents dans ses offres à prix affiché : Opérations à 99 MAD HT par smartphone et par mois, Business à 179 MAD HT par smartphone et par mois, et une offre Enterprise sur devis pour les grands comptes. La facturation est anticipée, mensuelle par défaut, sans engagement de durée. Le détail des offres est disponible sur [Prix d'un logiciel de gardiennage au Maroc](/blog/prix-logiciel-gardiennage-maroc).
+Comme pour le contrôle de ronde, les tarifs restent souvent communiqués uniquement sur devis dans ce secteur. OptimasProtect couvre le volet planning et gestion opérationnelle des agents dans ses offres à prix affiché : Opérations à 99 MAD HT par smartphone et par mois, Business à 179 MAD HT par smartphone et par mois, et une offre Enterprise sur devis pour les grands comptes. La facturation est anticipée, mensuelle par défaut, sans engagement de durée. Le détail des offres est disponible sur [Prix d'un logiciel de gardiennage au Maroc](/blog/prix-logiciel-gardiennage-maroc).
 
 ## Checklist avant de choisir un outil de planning pour agents de sécurité
 
@@ -80,7 +80,7 @@ Oui, c'est l'un des cas d'usage principaux : un remplaçant peut être affecté 
 
 ---
 
-Optimas Protect couvre la traçabilité des rondes, la gestion des incidents et la partie planning et opérationnel des agents sur un seul outil, testable sur un site pilote sans engagement long.
+OptimasProtect couvre la traçabilité des rondes, la gestion des incidents et la partie planning et opérationnel des agents sur un seul outil, testable sur un site pilote sans engagement long.
 
 Pour la partie traçabilité et preuve de passage, voir [Contrôle de ronde NFC au Maroc](/blog/controle-de-ronde-nfc-gardiennage-maroc). Pour le détail des offres et leur prix affiché, voir [Prix d'un logiciel de gardiennage au Maroc](/blog/prix-logiciel-gardiennage-maroc).
 
@@ -91,7 +91,7 @@ Pour la partie traçabilité et preuve de passage, voir [Contrôle de ronde NFC 
   "headline": "Logiciel de planning pour agents de sécurité au Maroc",
   "author": {
     "@type": "Organization",
-    "name": "Optimas Protect",
+    "name": "OptimasProtect",
     "url": "https://optimasprotect.ma/a-propos"
   },
   "datePublished": "2026-08-24"
