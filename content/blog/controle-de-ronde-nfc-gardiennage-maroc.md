@@ -49,7 +49,7 @@ Une balise NFC ne nécessite ni pile ni alimentation électrique : c'est une puc
 
 ## Combien coûte un contrôle de ronde NFC au Maroc
 
-Les prix restent souvent flous sur ce marché : plusieurs éditeurs, marocains comme internationaux, ne communiquent leurs tarifs que sur devis. Optimas Protect affiche les siens : l'offre Opérations est à 99 MAD HT par smartphone et par mois, l'offre Business à 179 MAD HT par smartphone et par mois, et une offre Enterprise se négocie sur devis pour les grands comptes. Ramené à la journée, cela représente moins de 4 dirhams par jour et par agent équipé, soit environ 3,3 MAD/jour pour Opérations et 6 MAD/jour pour Business. La facturation est anticipée, mensuelle par défaut, sans engagement de durée.
+Les prix restent souvent flous sur ce marché : plusieurs éditeurs, marocains comme internationaux, ne communiquent leurs tarifs que sur devis. OptimasProtect affiche les siens : l'offre Opérations est à 99 MAD HT par smartphone et par mois, l'offre Business à 179 MAD HT par smartphone et par mois, et une offre Enterprise se négocie sur devis pour les grands comptes. Ramené à la journée, cela représente moins de 4 dirhams par jour et par agent équipé, soit environ 3,3 MAD/jour pour Opérations et 6 MAD/jour pour Business. La facturation est anticipée, mensuelle par défaut, sans engagement de durée.
 
 ## Checklist avant de choisir une solution de contrôle de ronde
 
@@ -78,7 +78,7 @@ Le tarif est facturé par smartphone équipé et par mois ; le nombre de smartph
 
 ---
 
-Optimas Protect se teste sur un site pilote, sans engagement long. La première ronde peut être opérationnelle en moins d'une heure.
+OptimasProtect se teste sur un site pilote, sans engagement long. La première ronde peut être opérationnelle en moins d'une heure.
 
 Pour connaître le détail des offres et leur prix affiché, voir [Prix d'un logiciel de gardiennage au Maroc](/blog/prix-logiciel-gardiennage-maroc).
 
@@ -86,7 +86,7 @@ Pour connaître le détail des offres et leur prix affiché, voir [Prix d'un log
 {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  "name": "Optimas Protect",
+  "name": "OptimasProtect",
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Android, iOS",
   "offers": [
