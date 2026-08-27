@@ -49,7 +49,7 @@ Un portail client suppose un minimum de volume d'activité et d'incidents à con
 ## Questions fréquentes
 
 **Le client final doit-il payer un accès supplémentaire au portail ?**
-Cela dépend de l'offre souscrite par la société de sécurité auprès de son éditeur logiciel ; chez Optimas Protect, l'accès portail fait partie de l'offre Business, à 179 MAD HT par smartphone et par mois.
+Cela dépend de l'offre souscrite par la société de sécurité auprès de son éditeur logiciel ; chez OptimasProtect, l'accès portail fait partie de l'offre Business, à 179 MAD HT par smartphone et par mois.
 
 **Combien de temps un client peut-il consulter l'historique de son site ?**
 L'historique reste consultable pendant toute la durée du contrat en cours, sans démarche supplémentaire de la part du client.
@@ -65,13 +65,13 @@ Cela dépend des fonctionnalités de l'éditeur logiciel ; certaines offres perm
 
 ---
 
-Optimas Protect se teste sur un site pilote, sans engagement long. La première ronde peut être opérationnelle en moins d'une heure.
+OptimasProtect se teste sur un site pilote, sans engagement long. La première ronde peut être opérationnelle en moins d'une heure.
 
 ```json-ld
 {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  "name": "Optimas Protect",
+  "name": "OptimasProtect",
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Android, iOS",
   "offers": [
@@ -103,7 +103,7 @@ Optimas Protect se teste sur un site pilote, sans engagement long. La première 
       "name": "Le client final doit-il payer un accès supplémentaire au portail ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Cela dépend de l'offre souscrite par la société de sécurité auprès de son éditeur logiciel ; chez Optimas Protect, l'accès portail fait partie de l'offre Business, à 179 MAD HT par smartphone et par mois."
+        "text": "Cela dépend de l'offre souscrite par la société de sécurité auprès de son éditeur logiciel ; chez OptimasProtect, l'accès portail fait partie de l'offre Business, à 179 MAD HT par smartphone et par mois."
       }
     },
     {
