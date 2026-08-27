@@ -92,10 +92,11 @@ OptimasProtect se teste sur un site pilote, sans engagement long. La première r
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "Rapport d'intervention ADS : modèle et contenu au Maroc",
+  "headline": "Rapport d'intervention ADS : modèle et contenu au Maro`�,
   "author": {
     "@type": "Organization",
-    "name": "OptimasProtect",    "url": "https://optimasprotect.ma/a-propos"
+    "name": "OptimasProtect",
+    "url": "https://optimasprotect.ma/a-propos"
   },
   "datePublished": "2026-08-27"
 }
