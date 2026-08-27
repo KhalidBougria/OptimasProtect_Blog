@@ -52,7 +52,7 @@ Une main courante électronique suppose que les agents disposent d'un smartphone
 
 ## Prix
 
-Une main courante électronique est en général incluse dans l'abonnement logiciel du prestataire, sans coût matériel additionnel. Optimas Protect propose deux offres à prix affiché, l'offre Opérations à 99 MAD HT par smartphone et par mois, et l'offre Business à 179 MAD HT par smartphone et par mois, soit moins de 4 dirhams par jour et par agent équipé. Le détail des offres est disponible dans [Prix d'un logiciel de gardiennage au Maroc](/blog/prix-logiciel-gardiennage-maroc).
+Une main courante électronique est en général incluse dans l'abonnement logiciel du prestataire, sans coût matériel additionnel. OptimasProtect propose deux offres à prix affiché, l'offre Opérations à 99 MAD HT par smartphone et par mois, et l'offre Business à 179 MAD HT par smartphone et par mois, soit moins de 4 dirhams par jour et par agent équipé. Le détail des offres est disponible dans [Prix d'un logiciel de gardiennage au Maroc](/blog/prix-logiciel-gardiennage-maroc).
 
 ## Questions fréquentes
 
@@ -73,13 +73,13 @@ Oui, c'est l'un des cas d'usage les plus fréquents : la consigne saisie par une
 
 ---
 
-Optimas Protect se teste sur un site pilote, sans engagement long. La première ronde peut être opérationnelle en moins d'une heure.
+OptimasProtect se teste sur un site pilote, sans engagement long. La première ronde peut être opérationnelle en moins d'une heure.
 
 ```json-ld
 {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  "name": "Optimas Protect",
+  "name": "OptimasProtect",
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Android, iOS",
   "offers": [
