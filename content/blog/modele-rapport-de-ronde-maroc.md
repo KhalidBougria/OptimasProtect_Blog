@@ -79,7 +79,7 @@ Oui, la plupart des outils permettent d'adapter les points de contrôle et le fo
 
 ---
 
-Optimas Protect se teste sur un site pilote, sans engagement long. La première ronde peut être opérationnelle en moins d'une heure.
+OptimasProtect se teste sur un site pilote, sans engagement long. La première ronde peut être opérationnelle en moins d'une heure.
 
 Pour comprendre comment ces rapports sont générés automatiquement, voir [Contrôle de ronde NFC au Maroc](/blog/controle-de-ronde-nfc-gardiennage-maroc). Pour le détail des offres et leur prix affiché, voir [Prix d'un logiciel de gardiennage au Maroc](/blog/prix-logiciel-gardiennage-maroc).
 
@@ -90,7 +90,7 @@ Pour comprendre comment ces rapports sont générés automatiquement, voir [Cont
   "headline": "Modèle de rapport de ronde pour agents de sécurité au Maroc",
   "author": {
     "@type": "Organization",
-    "name": "Optimas Protect",
+    "name": "OptimasProtect",
     "url": "https://optimasprotect.ma/a-propos"
   },
   "datePublished": "2026-08-24"
