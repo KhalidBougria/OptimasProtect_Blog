@@ -74,7 +74,7 @@ Le client, via le reporting prévu au contrat, et l'autorité de tutelle pour le
 **Une société conforme à la Loi n°27-06 est-elle automatiquement en règle sur un marché public ?**
 Pas nécessairement. La conformité légale est un prérequis, mais chaque CPS peut ajouter des exigences propres au marché (effectifs, qualification, normes applicables) qu'il faut vérifier séparément.
 
-Optimas Protect se teste sur un site pilote, sans engagement long. La première ronde peut être opérationnelle en moins d'une heure.
+OptimasProtect se teste sur un site pilote, sans engagement long. La première ronde peut être opérationnelle en moins d'une heure.
 
 La preuve, pas la promesse.
 
@@ -85,7 +85,7 @@ La preuve, pas la promesse.
   "headline": "Cahier des charges gardiennage Maroc : ce que la loi exige",
   "author": {
     "@type": "Organization",
-    "name": "Optimas Protect",
+    "name": "OptimasProtect",
     "url": "https://optimasprotect.ma/"
   },
   "datePublished": "2026-08-25",
