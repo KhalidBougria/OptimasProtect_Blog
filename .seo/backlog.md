@@ -1,40 +1,46 @@
 # Backlog éditorial — Optimas Protect
 
-Dernière mise à jour : 2026-08-27.
+Dernière mise à jour : 2026-08-28.
 
-## Publiés / en attente de relecture (PR ouvertes)
+## PR ouvertes (en attente de relecture humaine)
 
-- `controle-de-ronde-nfc-gardiennage-maroc` — pilier 1 — PR #1 (draft) — hub pilier 1.
-- `prix-logiciel-gardiennage-maroc` — pilier 1 — PR #2 (draft) — hub prix.
-- `main-courante-electronique-maroc` — pilier 2 — PR #4 (draft) — cluster 6, futur hub pilier 2.
-- `portail-client-securite-privee-maroc` — pilier 2 — PR #5 (draft) — premier article du futur hub pilier 2.
-- `planning-agents-securite-maroc` — pilier 3 — PR #6 (draft) — premier article de ce pilier, candidat au futur hub pilier 3.
-- `modele-rapport-de-ronde-maroc` — pilier 1 — PR #7 (draft) — cluster 5, jalon intermédiaire cité au §9 du prompt de référence.
-- `cahier-des-charges-gardiennage-maroc` — pilier 1 — PR #8 (draft) — cluster 7, premier article du hub conformité. Article réglementaire, reste en PR même en phase 2 (§3.3). Un point `[À VÉRIFIER]` reste dans le corps (lien direct Bulletin Officiel / SGG vers le dahir n°1-07-155 et le décret n°2-09-97, non localisé avec certitude par recherche web).
-- `application-pointage-ads-maroc` — pilier 1 — PR #9 (draft) — cluster 3, produit le 2026-08-26. Distinct du contrôle de ronde (preuve de présence en début/fin de poste, vs preuve de passage à des points fixes pendant le poste). **Pas encore présent sur `main`** au 2026-08-27 (le workflow qui le republiait a été supprimé avant son prochain déclenchement, voir plus bas).
-- `rapport-intervention-ads-maroc` — pilier 2 — PR #10 (draft) — cluster 5 (variante « rapport d'intervention »), produit ce run. Distinct de `modele-rapport-de-ronde-maroc` (passages aux points de contrôle pendant une ronde programmée) et du paragraphe incident de `portail-client-securite-privee-maroc` : traite en profondeur le contenu d'un rapport sur un événement ponctuel hors routine. Score 15/25.
+- PR #1 `controle-de-ronde-nfc-gardiennage-maroc` — pilier 1 — hub pilier 1.
+- PR #2 `prix-logiciel-gardiennage-maro` — pilier 1 — hub prix.
+- PR #4 `main-courante-electronique-maro`)— pilier 2 — cluster 6.
+- PR #5 `portail-client-securite-privee-maroc` — pilier 2.
+- PR #6 `planning-agents-securite-maro` — pilier 3.
+- PR #7 `modele-rapport-de-ronde-maroc` — pilier 1 — cluster 5.
+- PR #8 `cahier-des-charges-gardiennage-maroc` — pilier 1 — cluster 7, hub conformité. Article réglementaire, reste en PR permanemment (§3.3).
+- PR #9 `application-pointage-ads-maroc` — pilier 1 — cluster 3.
+- PR #10 `rapport-intervention-ads-maroc` — pilier 2 — cluster 5 (variante).
 
-Les 10 PR sont ouvertes côté GitHub, aucune n'a été mergée nativement via l'interface.
+Les 9 PR restent ouvertes, aucune ne est encore mergée via l'interface GitHub. Répartition actuelle par pilier : pilier 1 = 5/9 (≈56 %), pilier 2 = 3/9 (≈33 %), pilier 3 = 1/9 (≈11 %). Proche du ratio cible 60/30/10 du §0 du prompt de référence.
 
-## ✅ Alerte critique du 2026-08-26 résolue — workflow `copie-repo` supprimé
+## ✅ Alerte critique du 2026-08-26 (workflow copie-repo) — pleinement résolue, reconfirmé 2026-08-28
 
-Le workflow GitHub Actions `.github/workflows/main.yml` (job `copie-repo`, cron quotidien 10:00 UTC) qui force-poussait chaque branche `article/*` directement sur `main` sans passer par la relecture de PR a été **supprimé** : le dernier commit sur `main` avant ce run est `Delete .github/workflows/main.yml`, signé, par `KhalidBougria`, daté du 2026-08-26T11:05:39Z — soit peu après le signalement de l'alerte dans le rapport du 2026-08-26. `list_workflows` confirme `total_count: 0` sur le dépôt ce run. La Phase 1 (relecture par PR) est de nouveau pleinement effective pour toute nouvelle branche `article/*` : c'est pour cela qu'`application-pointage-ads-maroc` (PR #9, créée le 2026-08-26) n'a pas été republiée sur `main` avant la suppression du workflow.
+Le workflow GitHub Actions `.github/workflows/main.yml` (job `copie-repo`, cron quotidien 10:00 UTC) qui force-poussait chaque branche `article/*` directement sur `main` sans passer par la relecture de PR a été supprimé le 2026-08-26T11:05:39Z (commit `bbfd0fb7`). Ce r{勥 reconfirme : `list_workflows` renvoie à nouveau `total_count: 0`. Le 2026-08-27 à 17:34-17:35 UTC, les 7 fichiers `content/blog/*.md` qui avaient été force-poussés sur `main` avant la suppression du workflow ont été supprimés de l'arborescence (7 commits `Delete content/blog/*.md`). Confirmé ce run par listing de la racine de `main` : seul `.seo/` est présent, aucun `content/` ni `.github/`. L'historique Git conserve la trace de l'épisode (non réécrite), ce qui est normal et utile pour l'audit, mais l'état courant du dépôt est propre. La Phase 1 (relecture par PR) est donc pleinement effective dans les faits, pas seulement dans le processus déclaré par l'agent. Point clos, ne plus resurveiller sauf réapparition d'un nouveau workflow.
 
-**Point non résolu :** les 7 articles déjà force-poussés sur `main` avant la suppression (controle-de-ronde-nfc, prix-logiciel, main-courante-electronique, modele-rapport-de-ronde, planning-agents-securite, portail-client-securite-privee, cahier-des-charges-gardiennage) restent publiés dans l'historique Git de `main`, y compris l'article réglementaire `cahier-des-charges-gardiennage-maroc` qui aurait dû rester en PR en permanence (§3.3). Cela ne peut pas être défait par l'agent (règle §7.4 : jamais de suppression de fichier existant sans demande explicite) ; c'est un fait acquis à signaler, pas une alerte active.
+## Correction de sourcage (rappel, 2026-08-25)
 
-## Correction de sourçage (2026-08-25, rappel)
+Une version antérieure du backlog citait une « loi n°38-12 » comme texte régissant les marchés publics. La recherche de sourcage n'a pas confirmé ce numéro de loi. Textes confirmés : le régime des marchés publics par décret (décret n°2-12-349, puis décret n°2-22-431 de 2023) et, pour l'obligation de mention des normes dans les cahiers des charges, la loi n°12-06 du 11 février 2010 relative à la normalisation, à la certification et à l'accréditation (source IMANOR), utilisée dans PR #8. Ne pas réutiliser « loi n°38-12 » sans confirmation directe sur sgg.gov.ma.
 
-Le point 3 de ce backlog (version du 2026-08-24) citait une « loi n°38-12 » comme texte régissant les marchés publics. La recherche de sourçage n'a pas confirmé ce numéro de loi. Les textes confirmés sont : le régime des marchés publics par décret (décret n°2-12-349, puis décret n°2-22-431 de 2023) et, pour l'obligation de mention des normes dans les cahiers des charges, la **loi n°12-06** du 11 février 2010 relative à la normalisation, à la certification et à l'accréditation (source IMANOR). C'est cette loi n°12-06 qui a été utilisée dans l'article `cahier-des-charges-gardiennage-maroc` (PR #8). Ne pas réutiliser « loi n°38-12 » dans un futur article sans confirmation directe sur sgg.gov.ma.
+## ⏸ Décision du 2026-08-28 : pause de production, cadence hebdomadaire déjà atteinte
 
-## Sujets retenus, à produire aux prochains runs
+Semaine S35 (24-30 août) : 5 articles déjà produits du lundi au jeudi (planning-agents et modèle-rapport-de-ronde le 24, cahier-des-charges le 25, application-pointage le 26, rapport-intervention le 27). La cadence cible du §9 (2 à 3 articles par semaine en phase de lancement) est déjà dépassée cette semaine. Conformément à « qualité avant quota » (§8.4) et à la règle du §4.1 (« une journée sans article publié est normale »), aucun nouvel article n'a été produit ce run (2026-08-28). Veille complète réalisée à la place (étapes 1, 2, 3 et 6).
 
-1. **Faux pointage ADS : comment le détecter sans accuser ses agents** — pilier 1/2 croisé, cluster 9. Toujours aucune confirmation autocomplete au 2026-08-27 (0 suggestion sur "détecter faux pointage agent de sécurité"). Angle produit distinct de `application-pointage-ads-maroc` (celui-ci décrit ce que l'outil doit couvrir ; ce sujet traite spécifiquement de la détection d'anomalies). Attention garde-fou §8.2 : pas de ton accusateur envers les agents.
-2. **Obligations Loi n°27-06 pour l'employeur** — cluster 8, hub conformité (deuxième article du hub après PR #8). Article réglementaire, même régime renforcé. Sourçage à démarrer : la Loi n°27-06 elle-même (dahir n°1-07-155, décret n°2-09-97, déjà confirmés et cités dans PR #8) couvre une partie du sujet ; ajouter au prochain run une recherche ciblée sur les obligations sociales CNSS si le sujet dérive vers le pilier 3 RH.
+## Sujets scorés, prêts pour la prochaine journée de production
 
-## Veille concurrentielle à noter
+1. **Obligations de la Loi n°27-06 pour l'employeur** — pilier 1 (régime renforcé, réglementaire), cluster 8, deuxième article du hub conformité. **Score : 18/25** (intention 4, faisabilité 4, avantage local 5, volume 2, fraîcheur 3). Sourcage à démarrer : la Loi n°27-06 elle-même (dahir n°1-07-155, décret n°2-09-97, déjà confirmés et cités dans PR #8) ; ajouter une recherche ciblée CNSS si le sujet dérive vers le pilier 3 RH. Priorité haute — complète un hub conformité qui n'a qu'un seul article à ce jour.
+2. **Faux pointage ADS : comment le détecter sans accuser ses agents** — pilier 1/2 croisé, cluster 9. **Score : 16/25** (intention 4, faisabilité 3, avantage local 4, volume 2, fraîcheur 3). Signal autocomplete toujours à 0 suggestion sur « faux pointage agent de sécurité » et « détecter faux pointage agent de sécurité » (revérifié ce run, 2026-08-28, gl=ma hl=fr) — le volume reste la variable la plus faible du score, cohérent avec un marché jeune où l'autocomplete est structurellement pauvre (attendu, pas un échec). Angle distinct de `application-pointage-ads-maroc` (qui décrit l'outil) : celui-ci traite spécifiquement de la détection d'anomalies. Attention garde-fou §8.2 : pas de ton accusateur envers les agents.
 
-SEKUR Africa (`sekur-africa.com/logiciel/logiciel-securite-privee-gardiennage-maroc/`) ne communiquait toujours aucun prix public au dernier contrôle (2026-08-26) : l'opacité tarifaire reste un point d'appui pour Optimas Protect sur le marché marocain. Pas de nouvelle vérification web ce run (URL hors provenance de session, fetch bloqué techniquement) ; à revérifier au prochain run. SEKUR met en avant une géolocalisation GPS au moment du pointage, à distinguer de la preuve de passage NFC ponctuelle d'Optimas Protect. SEKUR (France, `sekur.fr`) publie un comparatif 2026 avec prix affichés en euros (9,99 à 99,99 EUR HT/mois), mais ceci ne concerne pas le marché marocain.
+Ces deux sujets sont prêts à rédiger dès la prochaine journée de production. Priorité au sujet 1 (hub conformité) selon le ratio §0.
 
-## Rappel technique
+## Veille concurrentielle mise à jour ce run (2026-08-28)
 
-Le site `https://optimasprotect.ma/` reste, au dernier contrôle disponible, sans section `/blog/` visible et le dépôt de contenu ne semble pas connecté au site live (voir `.seo/repo-map.md`, non revérifié ce run). Le site live affiche « OptImasProtect » (un mot) alors que la charte de cet agent impose « Optimas Protect » (deux mots) — écart toujours à arbitrer par un humain.
+**SEKUR Africa** : la page dédiée Maroc (`sekur-africa.com/logiciel/logiciel-securite-privee-gardiennage-maroc/`) ne publie toujours aucun prix inline — elle renvoie vers `/tarifs/`, une page globale non localisée. Cette page tarifs affiche des prix en **euros uniquement** (59,99€ HT/mois pour 10 licences et tous les modules, dégressif selon engagement : 49,99€ à 12 mois, 39,99€ à 24 mois, 29,99€ à 36 mois ; licence supplémentaire 0,99€ à 0,49€ HT/mois selon palier), sans aucune déclinaison MAD ni mention du Maroc sur cette page précise. Ceci confirme et actualise le point d'opacité déjà noté : aucun prix en dirhams n'est affiché nulle part sur le site SEKUR Africa pour le marché marocain, ce qui reste un point d'appui éditorial pour Optimas Protect (prix MAD affichés, conversion journalière). Ne pas confondre avec sekur.fr (France), hors périmètre.
+
+**optimasprotect.ma** : toujours 0 résultat indexé sur `site:optimasprotect.ma` (revérifié ce run). CoYérent avec les constats précédents.
+
+## Rappel technique (non résolu, arbitrage humain toujours attendu)
+
+Le site `https://optimasprotect.ma/` reste, au dernier contrôle disponible (2026-08-25), sans section `/blog/` visible et le dépôt de contenu ne semble pas connecté au site live (assets pointant vers un outil tiers type GPT Engineer / Lovable). Le site live affiche « OptImasProtect » (un mot) alors que la charte de cet agent impose « optimas Protect » (**sic** — deux mots) — écart toujours à arbitrer par un humain. `robots.txt` non revérifié ce run (non prioritaire tant que le dépôt n'est pas connecté au site live).
