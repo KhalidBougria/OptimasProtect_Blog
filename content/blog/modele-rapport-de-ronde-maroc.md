@@ -50,7 +50,7 @@ Un rapport de ronde solide réunit systématiquement :
 
 ## Comment un contrôle de ronde NFC produit ce rapport automatiquement
 
-Un contrôle de ronde NFC génère l'essentiel du rapport sans saisie supplémentaire : chaque scan de balise horodate le passage, et un signalement d'anomalie ajouté depuis l'application vient enrichir le même document. Le responsable d'exploitation n'a plus qu'à valider et transmettre, au lieu de reconstituer un rapport a posteriori (voir [Contrôle de ronde NFC au Maroc](/blog/controle-de-ronde-nfc-gardiennage-maroc) pour le détail du fonctionnement).
+Un contrôle de ronde NFC génère l'essentiel du rapport sans saisie supplémentaire : chaque scan de balise horodate le passage, et un signalement d'anomalie ajouté depuis l'application vient enrichir le même document. Le responsable d'exploitation n'a plus qu'à valider et transmettre, au lieu de reconstituer un rapport a posteriori (voir [Contrôle de ronde NFC au Maroc](/articles/controle-de-ronde-nfc-gardiennage-maroc) pour le détail du fonctionnement).
 
 ## Checklist : votre rapport de ronde est-il prêt à être montré à un client ?
 
@@ -81,7 +81,7 @@ Oui, la plupart des outils permettent d'adapter les points de contrôle et le fo
 
 OptimasProtect se teste sur un site pilote, sans engagement long. La première ronde peut être opérationnelle en moins d'une heure.
 
-Pour comprendre comment ces rapports sont générés automatiquement, voir [Contrôle de ronde NFC au Maroc](/blog/controle-de-ronde-nfc-gardiennage-maroc). Pour le détail des offres et leur prix affiché, voir [Prix d'un logiciel de gardiennage au Maroc](/blog/prix-logiciel-gardiennage-maroc).
+Pour comprendre comment ces rapports sont générés automatiquement, voir [Contrôle de ronde NFC au Maroc](/articles/controle-de-ronde-nfc-gardiennage-maroc). Pour le détail des offres et leur prix affiché, voir [Prix d'un logiciel de gardiennage au Maroc](/articles/prix-logiciel-gardiennage-maroc).
 
 ```json-ld
 {
