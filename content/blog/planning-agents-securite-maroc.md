@@ -35,7 +35,7 @@ Le tableau papier affiché en local souffre des mêmes limites, avec en plus l'i
 
 **Pour le client final**, quand l'offre le prévoit, l'organisation prévue sur son site devient consultable sans avoir à la demander par mail. C'est un argument de transparence de plus, dans la même logique que la preuve de passage des rondes.
 
-Un logiciel de planning se distingue d'un contrôle de ronde ou d'un pointage : le planning décrit ce qui est prévu, le pointage et la ronde NFC prouvent ce qui a réellement eu lieu. Les deux couches se complètent, elles ne se remplacent pas l'une l'autre (voir [Contrôle de ronde NFC au Maroc](/blog/controle-de-ronde-nfc-gardiennage-maroc)).
+Un logiciel de planning se distingue d'un contrôle de ronde ou d'un pointage : le planning décrit ce qui est prévu, le pointage et la ronde NFC prouvent ce qui a réellement eu lieu. Les deux couches se complètent, elles ne se remplacent pas l'une l'autre (voir [Contrôle de ronde NFC au Maroc](/articles/controle-de-ronde-nfc-gardiennage-maroc)).
 
 À qui ce type d'outil ne convient pas : une très petite structure avec deux ou trois agents sur un seul site, où un simple fichier partagé reste suffisant tant que les rotations ne changent pas souvent. Le gain devient net à partir de plusieurs sites ou d'une équipe qui dépasse une dizaine d'agents, quand les conflits de planning cessent d'être rares.
 
@@ -51,7 +51,7 @@ Un logiciel de planning se distingue d'un contrôle de ronde ou d'un pointage : 
 
 ## Combien coûte un logiciel de planning pour agents de sécurité au Maroc
 
-Comme pour le contrôle de ronde, les tarifs restent souvent communiqués uniquement sur devis dans ce secteur. OptimasProtect couvre le volet planning et gestion opérationnelle des agents dans ses offres à prix affiché : Opérations à 99 MAD HT par smartphone et par mois, Business à 179 MAD HT par smartphone et par mois, et une offre Enterprise sur devis pour les grands comptes. La facturation est anticipée, mensuelle par défaut, sans engagement de durée. Le détail des offres est disponible sur [Prix d'un logiciel de gardiennage au Maroc](/blog/prix-logiciel-gardiennage-maroc).
+Comme pour le contrôle de ronde, les tarifs restent souvent communiqués uniquement sur devis dans ce secteur. OptimasProtect couvre le volet planning et gestion opérationnelle des agents dans ses offres à prix affiché : Opérations à 99 MAD HT par smartphone et par mois, Business à 179 MAD HT par smartphone et par mois, et une offre Enterprise sur devis pour les grands comptes. La facturation est anticipée, mensuelle par défaut, sans engagement de durée. Le détail des offres est disponible sur [Prix d'un logiciel de gardiennage au Maroc](/articles/prix-logiciel-gardiennage-maroc).
 
 ## Checklist avant de choisir un outil de planning pour agents de sécurité
 
@@ -82,7 +82,7 @@ Oui, c'est l'un des cas d'usage principaux : un remplaçant peut être affecté 
 
 OptimasProtect couvre la traçabilité des rondes, la gestion des incidents et la partie planning et opérationnel des agents sur un seul outil, testable sur un site pilote sans engagement long.
 
-Pour la partie traçabilité et preuve de passage, voir [Contrôle de ronde NFC au Maroc](/blog/controle-de-ronde-nfc-gardiennage-maroc). Pour le détail des offres et leur prix affiché, voir [Prix d'un logiciel de gardiennage au Maroc](/blog/prix-logiciel-gardiennage-maroc).
+Pour la partie traçabilité et preuve de passage, voir [Contrôle de ronde NFC au Maroc](/articles/controle-de-ronde-nfc-gardiennage-maroc). Pour le détail des offres et leur prix affiché, voir [Prix d'un logiciel de gardiennage au Maroc](/articles/prix-logiciel-gardiennage-maroc).
 
 ```json-ld
 {
