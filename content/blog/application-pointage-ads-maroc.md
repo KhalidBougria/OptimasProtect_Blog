@@ -40,7 +40,7 @@ Les deux sujets se recoupent souvent dans les demandes, alors qu'ils répondent 
 | Usage principal | Paie, facturation du temps de présence | Preuve de service transmise au client, litiges |
 | Donnée clé | Heure de début et de fin de poste | Heure et lieu de chaque passage intermédiaire |
 
-Un site qui exige une traçabilité complète a besoin des deux : le pointage encadre le poste, la ronde documente ce qui s'est passé pendant. Pour le déroulé complet d'une ronde tracée, voir [Contrôle de ronde NFC au Maroc](/blog/controle-de-ronde-nfc-gardiennage-maroc).
+Un site qui exige une traçabilité complète a besoin des deux : le pointage encadre le poste, la ronde documente ce qui s'est passé pendant. Pour le déroulé complet d'une ronde tracée, voir [Contrôle de ronde NFC au Maroc](/articles/controle-de-ronde-nfc-gardiennage-maroc).
 
 ## Ce qu'un responsable d'exploitation doit vérifier avant de choisir
 
@@ -56,7 +56,7 @@ Cette dernière question mérite d'être posée systématiquement au Maroc : une
 
 OptimasProtect affiche ses prix HT par smartphone et par mois : l'offre Opérations est à 99 MAD HT par smartphone et par mois, l'offre Business à 179 MAD HT par smartphone et par mois, et une offre Enterprise se négocie sur devis pour les grands comptes. Ramené à la journée, cela représente environ 3,3 MAD par jour et par agent équipé pour l'offre Opérations, et environ 6 MAD par jour pour l'offre Business. La facturation est anticipée, mensuelle par défaut, sans engagement de durée.
 
-Le pointage ADS fait partie du socle disponible dès l'offre Opérations ; il n'est pas réservé à l'offre supérieure. Le détail complet des deux offres est disponible dans [Prix d'un logiciel de gardiennage au Maroc](/blog/prix-logiciel-gardiennage-maroc).
+Le pointage ADS fait partie du socle disponible dès l'offre Opérations ; il n'est pas réservé à l'offre supérieure. Le détail complet des deux offres est disponible dans [Prix d'un logiciel de gardiennage au Maroc](/articles/prix-logiciel-gardiennage-maroc).
 
 ## À qui ce niveau de suivi ne s'impose pas encore
 
@@ -65,7 +65,7 @@ Une très petite structure avec un seul site et un dirigeant présent au quotidi
 ## Questions fréquentes
 
 **Une application de pointage ADS remplace-t-elle le planning des agents ?**
-Non, elle le complète. Le planning fixe qui doit être où et à quelle heure ; le pointage confirme que la présence prévue a effectivement eu lieu. Pour la construction du planning lui-même, voir [Logiciel de planning pour agents de sécurité au Maroc](/blog/planning-agents-securite-maroc).
+Non, elle le complète. Le planning fixe qui doit être où et à quelle heure ; le pointage confirme que la présence prévue a effectivement eu lieu. Pour la construction du planning lui-même, voir [Logiciel de planning pour agents de sécurité au Maroc](/articles/planning-agents-securite-maroc).
 
 **Le pointage fonctionne-t-il si l'agent n'a pas de connexion internet au moment de pointer ?**
 Le pointage s'enregistre sur le smartphone au moment de l'action et se synchronise dès qu'une connexion redevient disponible, ce qui évite de perdre un pointage en cas de réseau instable sur le site.
