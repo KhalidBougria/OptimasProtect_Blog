@@ -129,4 +129,17 @@ Pour voir comment fonctionne concrètement l'outil sur le terrain, voir [Contrô
       "name": "Le prix Enterprise est-il plus élevé que l'offre Business ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Le prix Enterprise se nʩ�� 
+        "text": "Le prix Enterprise se négocie au cas par cas selon le périmètre du grand compte, il n'existe donc pas de chiffre public à comparer directement avec les offres Opérations ou Business."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Peut-on tester le logiciel avant de s'engager sur l'ensemble des sites ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, un test sur un site pilote est possible avant toute généralisation, sans engagement long, avec une première ronde opérationnelle en moins d'une heure."
+      }
+    }
+  ]
+}
+```
