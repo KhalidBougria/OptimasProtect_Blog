@@ -27,7 +27,7 @@ Ces trois documents coexistent dans une prestation de gardiennage bien tracée, 
 | Main courante électronique | Que s'est-il passé sur le site pendant tout le poste ? | En continu, tout le service |
 | Rapport d'intervention | Que s'est-il passé lors d'un événement précis, hors routine ? | Ponctuelle, à l'occurrence |
 
-Le rapport d'intervention se concentre sur un fait isolé et ses suites. Il complète le [rapport de ronde](/blog/modele-rapport-de-ronde-maroc), qui documente le passage régulier aux points de contrôle, et s'inscrit dans la [main courante électronique](/blog/main-courante-electronique-maroc), qui couvre l'ensemble du poste.
+Le rapport d'intervention se concentre sur un fait isolé et ses suites. Il complète le [rapport de ronde](/articles/modele-rapport-de-ronde-maroc), qui documente le passage régulier aux points de contrôle, et s'inscrit dans la [main courante électronique](/articles/main-courante-electronique-maroc), qui couvre l'ensemble du poste.
 
 ## Ce qu'un rapport d'intervention doit contenir pour être exploitable
 
@@ -55,7 +55,7 @@ Ces défauts ne relèvent pas d'un manque de sérieux des agents sur le terrain 
 
 ## Rapport d'intervention et portail client : la suite logique
 
-Un rapport d'intervention rédigé sur papier ou envoyé par message reste un document isolé, que le client doit réclamer et classer lui-même. Relié à un [portail client](/blog/portail-client-securite-privee-maroc), il devient consultable directement par le donneur d'ordre, horodaté, avec son statut de traitement visible en temps réel plutôt qu'après relance. C'est ce qui distingue une prestation qui se contente de gérer les incidents d'une prestation qui les documente pour son client.
+Un rapport d'intervention rédigé sur papier ou envoyé par message reste un document isolé, que le client doit réclamer et classer lui-même. Relié à un [portail client](/articles/portail-client-securite-privee-maroc), il devient consultable directement par le donneur d'ordre, horodaté, avec son statut de traitement visible en temps réel plutôt qu'après relance. C'est ce qui distingue une prestation qui se contente de gérer les incidents d'une prestation qui les documente pour son client.
 
 ## Checklist : votre rapport d'intervention est-il exploitable ?
 
