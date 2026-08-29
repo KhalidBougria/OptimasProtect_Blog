@@ -40,11 +40,11 @@ Un registre papier dépend entièrement de la discipline et de l'écriture de l'
 
 ## Main courante et contrôle de ronde NFC : deux registres complémentaires
 
-La main courante consigne ce qui se passe sur un site pendant un service, un visiteur qui se présente, une anomalie constatée, une consigne transmise à l'équipe suivante. Le [contrôle de ronde NFC](/blog/controle-de-ronde-nfc-gardiennage-maroc) certifie, lui, qu'un agent est passé à un point précis à un instant précis. Les deux fonctionnent ensemble : une ronde NFC peut déclencher une entrée de main courante lorsqu'une anomalie est détectée pendant le passage.
+La main courante consigne ce qui se passe sur un site pendant un service, un visiteur qui se présente, une anomalie constatée, une consigne transmise à l'équipe suivante. Le [contrôle de ronde NFC](/articles/controle-de-ronde-nfc-gardiennage-maroc) certifie, lui, qu'un agent est passé à un point précis à un instant précis. Les deux fonctionnent ensemble : une ronde NFC peut déclencher une entrée de main courante lorsqu'une anomalie est détectée pendant le passage.
 
 ## Ce que cela change pour le donneur d'ordre
 
-Quand la main courante est numérique, le donneur d'ordre n'a plus besoin d'attendre une réunion de fin de mois ou une photocopie de cahier pour savoir ce qui s'est passé sur son site. Certaines offres permettent un accès direct à cet historique via un [portail client](/blog/portail-client-securite-privee-maroc), ce qui change la nature de la relation contractuelle : la preuve remplace la déclaration.
+Quand la main courante est numérique, le donneur d'ordre n'a plus besoin d'attendre une réunion de fin de mois ou une photocopie de cahier pour savoir ce qui s'est passé sur son site. Certaines offres permettent un accès direct à cet historique via un [portail client](/articles/portail-client-securite-privee-maroc), ce qui change la nature de la relation contractuelle : la preuve remplace la déclaration.
 
 ## À qui ce modèle ne convient pas
 
@@ -52,7 +52,7 @@ Une main courante électronique suppose que les agents disposent d'un smartphone
 
 ## Prix
 
-Une main courante électronique est en général incluse dans l'abonnement logiciel du prestataire, sans coût matériel additionnel. OptimasProtect propose deux offres à prix affiché, l'offre Opérations à 99 MAD HT par smartphone et par mois, et l'offre Business à 179 MAD HT par smartphone et par mois, soit moins de 4 dirhams par jour et par agent équipé. Le détail des offres est disponible dans [Prix d'un logiciel de gardiennage au Maroc](/blog/prix-logiciel-gardiennage-maroc).
+Une main courante électronique est en général incluse dans l'abonnement logiciel du prestataire, sans coût matériel additionnel. OptimasProtect propose deux offres à prix affiché, l'offre Opérations à 99 MAD HT par smartphone et par mois, et l'offre Business à 179 MAD HT par smartphone et par mois, soit moins de 4 dirhams par jour et par agent équipé. Le détail des offres est disponible dans [Prix d'un logiciel de gardiennage au Maroc](/articles/prix-logiciel-gardiennage-maroc).
 
 ## Questions fréquentes
 
