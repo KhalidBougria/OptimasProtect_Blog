@@ -80,7 +80,7 @@ Le tarif est facturé par smartphone équipé et par mois ; le nombre de smartph
 
 OptimasProtect se teste sur un site pilote, sans engagement long. La première ronde peut être opérationnelle en moins d'une heure.
 
-Pour connaître le détail des offres et leur prix affiché, voir [Prix d'un logiciel de gardiennage au Maroc](/blog/prix-logiciel-gardiennage-maroc).
+Pour connaître le détail des offres et leur prix affiché, voir [Prix d'un logiciel de gardiennage au Maroc](/articles/prix-logiciel-gardiennage-maroc).
 
 ```json-ld
 {
