@@ -68,7 +68,7 @@ Oui, un test sur un site pilote est possible avant toute généralisation, sans 
 
 OptimasProtect se teste sur un site pilote, sans engagement long. La première ronde peut être opérationnelle en moins d'une heure.
 
-Pour voir comment fonctionne concrètement l'outil sur le terrain, voir [Contrôle de ronde NFC au Maroc : comment ça marche](/blog/controle-de-ronde-nfc-gardiennage-maroc).
+Pour voir comment fonctionne concrètement l'outil sur le terrain, voir [Contrôle de ronde NFC au Maroc : comment ça marche](/articles/controle-de-ronde-nfc-gardiennage-maroc).
 
 ```json-ld
 {
