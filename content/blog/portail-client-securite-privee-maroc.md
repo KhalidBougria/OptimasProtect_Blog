@@ -36,11 +36,11 @@ Sans portail dédié, un incident constaté par un agent suit en général le m�
 
 ## Portail client et main courante électronique : la même logique de preuve
 
-Le portail client s'appuie sur les mêmes données que la [main courante électronique](/blog/main-courante-electronique-maroc) et le [contrôle de ronde NFC](/blog/controle-de-ronde-nfc-gardiennage-maroc) : ce que l'agent consigne sur le terrain devient, sans ressaisie, ce que le client consulte à distance.
+Le portail client s'appuie sur les mêmes données que la [main courante électronique](/articles/main-courante-electronique-maroc) et le [contrôle de ronde NFC](/articles/controle-de-ronde-nfc-gardiennage-maroc) : ce que l'agent consigne sur le terrain devient, sans ressaisie, ce que le client consulte à distance.
 
 ## Un différenciateur commercial, pas seulement un outil de reporting
 
-L'accès portail client fait partie des éléments qui distinguent une offre Business d'une offre Opérations plus basique. Pour un responsable d'exploitation qui doit défendre l'investissement en interne, c'est un argument transmissible : la transparence offerte au client devient un motif de fidélisation et un point différenciant face à des concurrents qui ne communiquent leurs tarifs, ni leurs fonctionnalités, que sur devis. Pour connaître le détail des deux offres, voir [Prix d'un logiciel de gardiennage au Maroc](/blog/prix-logiciel-gardiennage-maroc).
+L'accès portail client fait partie des éléments qui distinguent une offre Business d'une offre Opérations plus basique. Pour un responsable d'exploitation qui doit défendre l'investissement en interne, c'est un argument transmissible : la transparence offerte au client devient un motif de fidélisation et un point différenciant face à des concurrents qui ne communiquent leurs tarifs, ni leurs fonctionnalités, que sur devis. Pour connaître le détail des deux offres, voir [Prix d'un logiciel de gardiennage au Maroc](/articles/prix-logiciel-gardiennage-maroc).
 
 ## À qui ce modèle ne convient pas
 
