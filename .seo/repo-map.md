@@ -1,6 +1,12 @@
 # Cartographie du dépôt — OptimasProtect_Blog
 
-Dernière mise à jour : 2026-08-30. Ce fichier est un document de travail vivant ; pour l'historique détaillé jour par jour, voir `.seo/rapports/`.
+Dernière mise à jour : 2026-08-31 (semaine S36). Ce fichier est un document de travail vivant ; pour l'historique détaillé jour par jour, voir `.seo/rapports/`.
+
+## Point du 2026-08-31 : 11 PR ouvertes, toujours aucune fusion
+
+PR #13 (`obligations-loi-27-06-employeur-maroc`, hub conformité, score 18/25) ajoutée ce run. Le dépôt compte désormais **11 pull requests ouvertes depuis le 2026-08-22, aucune fusionnée** — plus d'une semaine sans relecture humaine. Ce n'est pas en soi une alerte nouvelle (la Phase 1 fonctionne comme prévu), mais le volume croissant de PR en attente devient un point à signaler explicitement dans chaque rapport : au-delà d'un certain nombre, l'utilité de continuer à produire sans qu'aucune relecture n'ait lieu mérite d'être réévaluée par l'utilisateur.
+
+`site:optimasprotect.ma` reconfirmé à 0 résultat indexé ce run (recherche web). L'alerte haute « aucun générateur de site connecté à ce dépôt » (voir section dédiée plus bas) reste active et non résolue.
 
 ## ✅ Arbitrage humain du 2026-08-29 (PR #11, mergée) — alertes `/articles` et « écart de marque » RÉSOLUES
 
@@ -11,7 +17,7 @@ Le prompt de référence `.seo/agent-prompt.md` (version 3.2, PR #11 mergée le 
 
 **Vérification spot-check ce run :** l'article `controle-de-ronde-nfc-gardiennage-maroc` (branche `article/*`, PR #1) utilise déjà des liens internes en `/articles/{slug}` et la forme « OptimasProtect » (un mot) dans le corps et le JSON-LD - les 9 articles de PR ont donc vraisemblablement déjà été corrigés sur ces deux points lors du PR #11, contrairement à ce que sa description laissait entendre sur la marque. À vour au prochain article : confirmer que les 9 articles n'ont aucune occurrence résiduelle de `/blog/` ou de `Optimas Protect` (deux mots) avant leur éventuelle fusion. Aucun champ `canonical` explicite n'est présent dans le frontmatter de cet article (champ optionnel) : à ajouter systématiquement sur les prochains articles pour lever toute ambiguét.
 
-Conséquence : la pause de production décidée le 2026-08-29 pour motif d'incertitude sur l'URL est levée. La seule raison de pause restante ce run (2026-08-30) est la cadence hebdomadaire déjà largement dépassée (voir rapport du jour).
+Conséquence : la pause de production décidée le 2026-08-29 pour motif d'incertitude sur l'URL est levée. La seule raison de pause restant ce run (2026-08-30) est la cadence hebdomadaire déjà largement dépassée (voir rapport du jour).
 
 ## Accès au dépôt
 
@@ -61,20 +67,21 @@ En fin de corps d'article dans un bloc ```json-ld```. Types : `SoftwareApplicati
 
 - Hub pilier 1 (traçabilité / contrôle de ronde) : `controle-de-ronde-nfc-gardiennage-maroc`.
 - Hub prix : `prix-logiciel-gardiennage-maroc`.
-- Hub conformité (Loi n°27-06 / cahiers des charges) : un seul article à ce jour (`cahier-des-charges-gardiennage-maroc`) ; deuxième article prêt en backlog (obligations Loi n°27-06 employeur, score 18/25).
+- Hub conformité (Loi n°27-06 / cahiers des charges) : **deux articles depuis le 2026-08-31** (`cahier-des-charges-gardiennage-maroc`, exigences de marché ; `obligations-loi-27-06-employeur-maroc`, obligations propres à l'employeur). Sujets candidats pour un troisième article ou un enrichissement de PR #8 : rondes électroniques obligatoires (150/mois), conformité marchés publics sécurité (120/mois), voir `.seo/backlog.md`.
 
 ## Veille concurrentielle — URLs de référence
 
-- **Cercle 1 (Maroc) :** SEKUR Africa — `sekur-africa.com/logiciel/logiciel-securite-privee-gardiennage-maroc/` (aucun prix inline), `sekur-africa.com/tarifs/` (EUR uniquement), page d'accueil annonce « à partir de 99,99 €/mois pour 6 utilisateurs ». SEKUR Africa a publié un comparatif sectoriel (`sekur-africa.com/meilleurs-logiciels-securite-privee-2025/`) — format à garder en tête comme idée future (prudence §8.2). Opacité tarifaire MAD toujours confirmée.
-- **Cercle 2 (international) :** Trackforce Valiant - `trackforce.com/fr/solutions/gestion-des-gardiens-de-securite/`. Pricing toujours non public.
+- **Cercle 1 (Maroc) :** SEKUR Africa — `sekur-africa.com/logiciel/logiciel-securite-privee-gardiennage-maroc/` (aucun prix inline), `sekur-africa.com/tarifs/` (EUR uniquement, grille 59,99 à 29,99 € HT/mois selon engagement pour 10 licences). Le site français `sekur.fr` (hors périmètre Maroc mais à garder en tête) affiche désormais un prix d'appel distinct à partir de 69,99 € HT/mois. SEKUR Africa a publié un comparatif sectoriel (`sekur-africa.com/meilleurs-logiciels-securite-privee-2025/`) — format à garder en tête comme idée future (prudence §8.2). Opacité tarifaire MAD toujours confirmée (reconfirmé 2026-08-31).
+- **Cercle 2 (international) :** Trackforce Valiant - `trackforce.com/fr/solutions/gestion-des-gardiens-de-securite/`. Pricing toujours non public. Positionnement international réaffirmé (300 000+ professionnels, 30 000+ sites, 45 pays), aucune adaptation Maroc identifiée.
 - Ne pas confondre SEKUR Africa avec SEKUR France, hors périmètre Maroc.
 
 ## Alertes non résolues (arbitrage humain attendu)
 
-1. **Connexion du dépôt Git au site live :** toujours pas de preuve directe que ce dépôt alimente `optimasprotect.ma` / la page `/articles`. La structure d'URL a été arbitrée par l'utilisateur, mais le mécanisme technique réel de publication (générateur de site) reste à brancher sur ce dépôt.
+1. **Connexion du dépôt Git au site live :** toujours pas de preuve directe que ce dépôt alimente `optimasprotect.ma` / la page `/articles`. La structure d'URL a été arbitrée par l'utilisateur, mais le mécanisme technique réel de publication (générateur de site) reste à brancher sur ce dépôt. Non résolu au 2026-08-31.
 2. `robots.txt` : toujours non vérifié (URL hors du périmètre autorisé pour l'outil de fetch de cette session).
-3. `site:optimasprotect.ma` : à revérifier ce run.
+3. `site:optimasprotect.ma` : reconfirmé à 0 résultat indexé le 2026-08-31 (recherche web).
+4. **Nouveau point de suivi (2026-08-31) :** 11 PR ouvertes, aucune fusionnée depuis plus d'une semaine. Non bloquant pour la veille et la production, mais à signaler tant qu'aucune relecture humaine n'a eu lieu.
 
 ## Confirmation positive
 
-Le format de frontmatter et le dossier `content/blog/{slug}.md` établis au premier run fonctionnent sans ajustement : 9 articles produits à ce jour (aucun nouvel article les 2026-08-29 et 2026-08-30, voir rapports).
+Le format de frontmatter et le dossier `content/blog/{slug}.md` établis au premier run fonctionnent toujours sans ajustement : 11 articles produits à ce jour (aucun nouvel article le 2026-08-29 ; 1 le 2026-08-30, PR #12, ajout intraday suite à un signal utilisateur ; 1 le 2026-08-31, PR #13 ; voir rapports).
