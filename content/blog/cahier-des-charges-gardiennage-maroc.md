@@ -2,13 +2,14 @@
 title: "Cahier des charges gardiennage Maroc : ce que la loi exige"
 description: "Cahiers des charges gardiennage Maroc : loi n°27-06, normes des marchés publics, preuve de passage exigée. Ce que doit vérifier un exploitant."
 slug: "cahier-des-charges-gardiennage-maroc"
-tags: ["Conformité 27-06", "Cahier des charges", "Gardiennage", "Maroc"]
-date: "2026-08-25"
+tags: ["Conformité 27-06", "Cahier des charges", "Gardiennage", "Maroc", "Marchés publics"]
+date: "2026-09-02"
 author: "Team Optimas"
 draft: true
 focus_keyword: "cahier des charges gardiennage maroc"
 pillar: "1"
 score: 20
+canonical: "https://optimasprotect.ma/articles/cahier-des-charges-gardiennage-maroc"
 ---
 
 # Cahier des charges gardiennage Maroc : ce que la loi exige
@@ -56,6 +57,22 @@ Ce n'est pas une opinion isolée : c'est ce que traduisent, de plus en plus, les
 | Reporting client transmissible sans ressaisie manuelle | Réduit le risque de contestation en cours de marché |
 | Normes marocaines applicables mentionnées si le CPS le demande | Obligation issue de la Loi n°12-06 sur la normalisation |
 
+## Rondes électroniques : une exigence de plus en plus systématique dans les CPS
+
+De plus en plus de cahiers des prescriptions spéciales de gardiennage ne se contentent plus de demander une « ronde » : ils précisent qu'elle doit être tracée électroniquement, point de contrôle par point de contrôle, avec horodatage automatique et non modifiable a posteriori. Cette formulation ferme la porte aux mains courantes papier remplies en fin de service, qui restent modifiables après coup.
+
+Pour un exploitant, cela change la nature de la preuve à produire : il ne s'agit plus de démontrer qu'un contrat de prestation existe, mais de pouvoir produire, sur demande, l'historique horodaté d'un point de contrôle donné, sur une période donnée. Un point NFC scanné au moment du passage répond directement à cette exigence, sans qu'il soit nécessaire d'installer du matériel dédié sur chaque site.
+
+Cette évolution n'est pas propre aux marchés publics : des donneurs d'ordre privés (banques, sites industriels, grande distribution) reprennent la même exigence dans leurs propres cahiers des charges, par mimétisme avec les standards observés sur les marchés publics.
+
+## Conformité aux marchés publics de sécurité : ce que les donneurs d'ordre vérifient réellement
+
+Répondre à un marché public de gardiennage ne se limite pas à joindre les documents administratifs demandés. En cours d'exécution, le donneur d'ordre vérifie concrètement trois choses : que le nombre d'agents facturé correspond au nombre d'agents réellement présents sur site, que la fréquence des rondes prévue au CPS est respectée, et que les incidents sont remontés dans les délais contractuels.
+
+Ces trois vérifications sont difficiles à documenter avec un registre papier ou un tableau partagé rempli manuellement, pour une raison simple : rien ne prouve que la saisie a été faite au moment réel de l'événement plutôt qu'a posteriori pour combler un trou. Un dispositif de pointage et de contrôle de ronde numérique répond à cette difficulté en produisant un horodatage qui n'est pas modifiable après coup, transmissible directement au client sans ressaisie.
+
+Pour le responsable d'exploitation qui doit défendre son dossier en interne avant même de le soumettre au client, disposer de cette preuve en continu, plutôt qu'à la demande, change la nature de la conversation : ce n'est plus « faites-nous confiance », c'est « voici l'historique vérifiable ».
+
 ## À qui ce niveau d'exigence ne s'impose pas encore
 
 Toutes les sociétés de gardiennage marocaines ne sont pas concernées au même degré. Une petite structure qui travaille sur un ou deux sites privés, sans marché public ni cahier des charges formalisé, peut fonctionner un temps avec un registre papier et la confiance du client. Le basculement devient nécessaire au moment où le client exige un reporting daté et vérifiable, ou dès qu'un appel d'offres avec CPS entre en jeu : à ce moment-là, le déclaratif ne suffit plus à sécuriser le contrat.
@@ -89,7 +106,7 @@ La preuve, pas la promesse.
     "url": "https://optimasprotect.ma/"
   },
   "datePublished": "2026-08-25",
-  "dateModified": "2026-08-25"
+  "dateModified": "2026-09-02"
 }
 ```
 
@@ -140,4 +157,4 @@ La preuve, pas la promesse.
 - Loi n°12-06 du 11 février 2010 relative à la normalisation, à la certification et à l'accréditation (obligation de mention des normes applicables dans les cahiers des charges des marchés publics) — voir IMANOR.
 - Portail des marchés publics du Maroc (marchespublics.gov.ma) — structure CCAG/CPC/CPS des marchés de services.
 
-[À VÉRIFIER avant publication finale : lien direct vers le texte du dahir n°1-07-155 et du décret n°2-09-97 sur le Bulletin Officiel / portail du SGG, à insérer en note de bas d'article une fois localisés avec certitude sur adala.justice.gov.ma ou sgg.gov.ma. Cet article reste en PR conformément au régime renforcé §3.3 et n'est pas mergé automatiquement.]
+[À VÉRIFIER avant publication finale : lien direct vers le texte du dahir n°1-07-155 et du décret n°2-09-97 sur le Bulletin Officiel / portail du SGG, à insérer en note de bas d'article une fois localisé avec certitude sur adala.justice.gov.ma ou sgg.gov.ma. Cet article reste en PR conformément au régime renforcé §3.3 et n'est pas mergé automatiquement.]
