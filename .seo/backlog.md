@@ -1,8 +1,16 @@
 # Backlog éditorial — OptimasProtect
 
-Dernière mise à jour : 2026-09-02 (troisième session de la semaine S36).
+Dernière mise à jour : 2026-09-03 (quatrième session de la semaine S36).
 
-## Décision prise ce run (2026-09-02)
+## Décision prise ce run (2026-09-03)
+
+Aucun article produit ni enrichi ce run. Rotation de mots-clés ciblée sur des angles pilier 1 (clusters 1/2/4) et pilier 2/3 non testés les runs précédents : « logiciel gestion société de sécurité Maroc », « meilleur logiciel gardiennage Maroc », « application ronde agent de sécurité », « traçabilité agents de sécurité Maroc », « reporting mensuel client sécurité privée », « transparence prestations sécurité privée Maroc », « logiciel congés agents de sécurité Maroc », « gestion RH société de sécurité Maroc », « société de sécurité privée Maroc logiciel » : **0 suggestion pour toutes** (autocomplete `gl=ma`, `hl=fr`). Expansion alphabet sur les graines « logiciel gardiennage » et « pointage agent » : aucun signal exploitable — soit hors sujet (logiciels grand public, résultats anglophones parasites), soit déjà couvert par PR #4 (« logiciel registre sécurité ») et PR #6 (« logiciel planning sécurité privée »). Trends (`geo=MA`, 12 mois) sur « logiciel gardiennage maroc », « prix logiciel securite privee », « portail client securite » : plat à 0 sur toute la période et sur toutes les régions.
+
+**Constat structurel :** les 10 clusters prioritaires du §4.2 ont désormais chacun au moins un article en PR (voir table ci-dessous). Aucun angle assez distinct n'est remonté aujourd'hui pour justifier un 13e article sans risquer un doublon d'intention avec un des 12 déjà en attente. Conformément à la règle « une journée sans article publié est normale, une journée sans veille ne l'est pas » (§4.1), ce run est une journée de veille seule.
+
+**Recommandation pour la prochaine session :** l'autocomplete et Trends sont désormais quasi systématiquement à 0 sur ce marché depuis plusieurs runs consécutifs — la boussole a atteint ses limites pratiques avec les outils actuels. Envisager de creuser plutôt via lecture directe des sites concurrents (pages FAQ, forums professionnels marocains, avis clients) ou via l'accès Search Console une fois configuré (voir alerte technique), plutôt que de répéter la même rotation autocomplete.
+
+## Décision prise le run précédent (2026-09-02)
 
 Aucun article distinct produit ce run. À la place : **enrichissement de la PR #8** (`cahier-des-charges-gardiennage-maroc`, hub conformité, score inchangé 20/25) avec deux nouvelles sections répondant aux deux sujets qui restaient en tête de file depuis le 2026-08-26 :
 
