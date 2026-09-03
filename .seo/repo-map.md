@@ -1,10 +1,22 @@
 # Cartographie du dépôt — OptimasProtect_Blog
 
-Dernière mise à jour : 2026-09-01 (semaine S36). Ce fichier est un document de travail vivant ; pour l'historique détaillé jour par jour, voir `.seo/rapports/`.
+Dernière mise à jour : 2026-09-03 (semaine S36). Ce fichier est un document de travail vivant ; pour l'historique détaillé jour par jour, voir `.seo/rapports/`.
+
+## Point du 2026-09-03 : journée de veille seule, aucun nouveau sujet retenu, 12 PR toujours ouvertes
+
+Aucune nouvelle PR ce run. Rotation de mots-clés ciblée sur des angles non testés (pilier 1 clusters 1/2/4 et pilier 2/3 : « logiciel gestion société de sécurité Maroc », « meilleur logiciel gardiennage Maroc », « application ronde agent de sécurité », « traçabilité agents de sécurité Maroc », « reporting mensuel client sécurité privée », « transparence prestations sécurité privée Maroc », « logiciel congés agents de sécurité Maroc », « gestion RH société de sécurité Maroc », « société de sécurité privée Maroc logiciel ») : **0 suggestion pour toutes**, confirmant une nouvelle fois le régime pauvre en autocomplete sur ce marché. Expansion alphabet sur « logiciel gardiennage » et « pointage agent » : aucun signal exploitable (bruit hors sujet ou redites déjà couvertes par PR #4/#6). Trends (`geo=MA`, 12 mois) sur trois requêtes pilier 1/2 : plat à 0 partout, aucune donnée régionale exploitable.
+
+Constat structurel : les 10 clusters prioritaires du §4.2 ont désormais chacun au moins un article en PR (voir table dans `.seo/backlog.md`). Le travail journalier de ce run n'a fait remonter aucun angle assez distinct pour justifier un 13e article sans risquer un doublon d'intention. Conformément à la règle « une journée sans article publié est normale, une journée sans veille ne l'est pas » (§4.1), aucun article n'a été produit ce run ; la veille a été menée jusqu'au bout.
+
+Veille concurrentielle reconfirmée par recherche web ce run : SEKUR (sekur.fr / sekur-africa.com) toujours en tarification EUR uniquement (à partir de 99,99 €/mois pour 6 utilisateurs sur l'offre France, cohérent avec l'opacité MAD déjà documentée côté Maroc), aucune nouvelle page ni changement de positionnement détecté. Trackforce Valiant toujours positionné à l'international, pricing sur devis, aucune information Maroc spécifique remontée ce run. Aucun nouvel acteur marocain détecté.
+
+`site:optimasprotect.ma` reconfirmé à 0 résultat pertinent indexé ce run (recherche web) — seuls des homonymes sans rapport remontent. `robots.txt` toujours hors du périmètre autorisé pour l'outil de fetch de cette session, donc toujours non vérifié directement.
+
+**Point à signaler avec insistance croissante :** le dépôt compte désormais 12 pull requests ouvertes depuis le 2026-08-22, **aucune fusionnée après plus de deux semaines**. Ce point est signalé sans interruption depuis le 2026-08-31 et continue de croître en ancienneté sans qu'aucune action humaine n'ait eu lieu. L'alerte haute « aucun générateur de site connecté à ce dépôt » (voir section dédiée plus bas) reste elle aussi active et non résolue.
 
 ## Point du 2026-09-01 : 12 PR ouvertes, toujours aucune fusion
 
-PR #14 (`faux-pointage-ads-detecter-maroc`, pilier 1, cluster 9, score 16/25) ajoutée ce run. Le dépôt compte désormais **12 pull requests ouvertes depuis le 2026-08-22, aucune fusionnée** — plus d'une semaine et demie sans relecture humaine. Ce point était déjà signalé le 2026-08-31 ; il continue de croître d'une session à l'autre. Non bloquant pour la veille et la production, mais à réévaluer par l'utilisateur si le volume continue de croître sans aucune relecture.
+PR #14 (`faux-pointage-ads-detecter-maroc`, pilier 1, cluster 9, score 16/25) ajoutée ce run. Le dépôt compte désormais***12 pull requests ouvertes depuis le 2026-08-22, aucune fusionnée** — plus d'une semaine et demie sans relecture humaine. Ce point était déjà signalé le 2026-08-31 ; il continue de croître d'une session à l'autre. Non bloquant pour la veille et la production, mais à réévaluer par l'utilisateur si le volume continue de croître sans aucune relecture.
 
 `site:optimasprotect.ma` reconfirmé à 0 résultat indexé ce run (recherche web). L'alerte haute « aucun générateur de site connecté à ce dépôt » (voir section dédiée plus bas) reste active et non résolue.
 
@@ -19,9 +31,9 @@ PR #13 (`obligations-loi-27-06-employeur-maroc`, hub conformité, score 18/25) a
 Le prompt de référence `.seo/agent-prompt.md` (version 3.2, PR #11 mergée le 2026-08-29 à 08:25:27Z) tranche les deux points laissés en suspens le 2026-08-29 :
 
 1. **Structure d'URL :** `/articles/{slug}` est confirmée comme cible correcte (et non `/blog/{slug}`), conformément au lien footer observé sur le site live. Confirmé par l'utilisateur.
-2. **Orthographe de la marque :** `OptimasProtect` en un seul mot remplace `« Optimas Protect » à partir de maintenant (production future uniquement), conformément à l'orthographe du site live.
+2. **Orthographe de la marque :** `OptimasProtect` en un seul mot remplace « Optimas Protect » à partir de maintenant (production future uniquement), conformément à l'orthographe du site live.
 
-**Vérification spot-check ce run :** l'article `controle-de-ronde-nfc-gardiennage-maroc` (branche `article/*`, PR #1) utilise déjà des liens internes en `/articles/{slug}` et la forme « OptimasProtect » (un mot) dans le corps et le JSON-LD - les 9 articles de PR ont donc vraisemblablement déjà été corrigés sur ces deux points lors du PR #11, contrairement à ce que sa description laissait entendre sur la marque. À vour au prochain article : confirmer que les 9 articles n'ont aucune occurrence résiduelle de `/blog/` ou de `Optimas Protect` (deux mots) avant leur éventuelle fusion. Aucun champ `canonical` explicite n'est présent dans le frontmatter de cet article (champ optionnel) : à ajouter systématiquement sur les prochains articles pour lever toute ambigvété.
+**Vérification spot-check ce run :** l'article `controle-de-ronde-nfc-gardiennage-maroc` (branche `article/*`, PR #1) utilise déjà des liens internes en `/articles/{slug}` et la forme « OptimasProtect » (un mot) dans le corps et le JSON-LD - les 9 articles de PR ont donc vraisemblablement déjà été corrigés sur ces deux points lors du PR #11, contrairement à ce que sa description laissait entendre sur la marque. À vour au prochain article : confirmer que les 9 articles n'ont aucune occurrence résiduelle de `/blog/` ou de `Optimas Protect` (deux mots) avant leur éventuelle fusion. Aucun champ `canonical` explicite n'est présent dans le frontmatter de cet article (champ optionnel) : à ajouter systématiquement sur les prochains articles pour lever toute ambiguïté.
 
 Conséquence : la pause de production décidée le 2026-08-29 pour motif d'incertitude sur l'URL est levée. La seule raison de pause restant ce run (2026-08-30) est la cadence hebdomadaire déjà largement dépassée (voir rapport du jour).
 
@@ -90,4 +102,4 @@ En fin de corps d'article dans un bloc ```json-ld```. Types : `SoftwareApplicati
 
 ## Confirmation positive
 
-Le format de frontmatter et le dossier `content/blog/{slug}.md` établis au premier run fonctionnent toujours sans ajustement : 12 articles produits à ce jour (aucun nouvel article le 2026-08-29 ; 1 le 2026-08-30, PR #12 ; 1 le 2026-08-31, PR #13 ; 1 le 2026-09-01, PR #14 ; voir rapports).
+Le format de frontmatter et le dossier `content/blog/{slug}.md` établi au premier run fonctionnent toujours sans ajustement : 12 articles produits à ce jour (aucun nouvel article le 2026-08-29 ; 1 le 2026-08-30, PR #12 ; 1 le 2026-08-31, PR #13 ; 1 le 2026-09-01, PR #14 ; voir rapports).
