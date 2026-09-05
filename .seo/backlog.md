@@ -1,6 +1,21 @@
 # Backlog éditorial — OptimasProtect
 
-Dernière mise à jour : 2026-09-03 (quatrième session de la semaine S36).
+Dernière mise à jour : 2026-09-05 (semaine S36).
+
+## Décision prise ce run (2026-09-05)
+
+**1 article produit ce run** : `cahier-de-consignes-securite-maroc` (PR #15, pilier 1, score 17/25, `draft: true`). Sujet identifié via autocomplete (`gl=ma`, `hl=fr`) sur « cahier de consignes sécurité » (1 suggestion) puis validé par recherche web : SEKUR (sekur.fr) commercialise une fonctionnalité dédiée « Cahier de consignes » (`sekur.fr/cahier-de-consignes-logiciel-gestion-securite-privee/`), confirmant l'intention business malgré un volume mesurable faible sur ce marché — cohérent avec le régime pauvre en autocomplete déjà documenté ci-dessous.
+
+Nouvelle rotation testée ce run sur des angles pilier 2 non essayés précédemment : « SLA prestation gardiennage », « réclamation client société de sécurité », « litige client société de sécurité preuve », « indicateurs qualité prestation gardiennage » : **0 suggestion pour toutes**, confirmant une fois de plus le régime pauvre en autocomplete sur ce marché pour les angles pilier 2. Rotation pilier 3 testée (« carte professionnelle agent de sécurité Maroc », « congés agent de sécurité Maroc ») : également 0 suggestion. Trends (`geo=MA`, 12 mois) sur trois requêtes pilier 2 : erreur 429 (Google Trends temporairement indisponible ce run, à retenter la prochaine session).
+
+**Décision anti-doublon (§0) :** relecture complète de `main-courante-electronique-maroc` (PR #4) avant rédaction. Le cahier de consignes (instructions permanentes du site, sens donneur d'ordre → agent) est distinct de la main courante (journal d'événements, sens agent → responsable) ; les deux se complètent sans se recouper. Intention confirmée suffisamment distincte pour justifier un nouvel article plutôt qu'un enrichissement.
+
+**Application de la règle de bascule (§0) :** aucun sujet pilier 2 réellement neuf n'a passé le seuil de 14/25 ce run (voir signaux ci-dessus). Le sujet cahier de consignes, bien que pouvant recouper les piliers 1 et 3, a été classé pilier 1 (traçabilité et preuve de transmission des consignes) conformément à la priorité du §0 en l'absence d'alternative pilier 2 qualifiée. L'écart de ratio pilier 2 (25 % contre 30 % cible) n'est donc pas résorbé ce run ; à traiter en priorité dès qu'un sujet pilier 2 franchit le seuil.
+
+`site:optimasprotect.ma` reconfirmé à 0 résultat pertinent indexé ce run (recherche web) — mêmes homonymes sans rapport. `robots.txt` toujours hors du périmètre autorisé pour l'outil de fetch de cette session, donc toujours non vérifié directement.
+
+**Point signalé avec insistance croissante :** le dépôt compte désormais **13 pull requests ouvertes depuis le 2026-08-22, aucune fusionnée** après plus de deux semaines. Ce point est signalé sans interruption depuis le 2026-08-31 et continue de croître en ancienneté sans qu'aucune action humaine n'ait eu lieu. L'alerte haute « aucun générateur de site connecté à ce dépôt » (voir `.seo/repo-map.md`) reste elle aussi active et non résolue.
+
 
 ## Décision prise ce run (2026-09-03)
 
@@ -38,7 +53,9 @@ Les deux sujets scorés sont donc retirés de la file d'attente (résolus par en
 - PR #13 `obligations-loi-27-06-employeur-maroc` — pilier 1 — cluster 8, hub conformité. Score 18/25, article réglementaire, reste en PR en permanence.
 - PR #14 `faux-pointage-ads-detecter-maroc` — pilier 1 — cluster 9. Score 16/25, article non réglementaire.
 
-**12 PR ouvertes, aucune fusionnée à ce jour** (dépôt actif depuis le 2026-08-22, plus de deux semaines sans relecture humaine — ce point continue de croître). Répartition par pilier inchangée : pilier 1 = 7/12 (≈58 %), pilier 2 = 3/12 (≈25 %), pilier 3 = 2/12 (≈17 %). Pilier 1 proche de la cible 60 %, pilier 2 sous la cible 30 % (25 %), pilier 3 au-dessus de la cible 10 % (17 %). Prochaine session : privilégier un sujet pilier 2 réellement neuf si le seuil de 14/25 est atteint en veille.
+**13 PR ouvertes, aucune fusionnée à ce jour** (dépôt actif depuis le 2026-08-22, plus de deux semaines sans relecture humaine — ce point continue de croître). Répartition par pilier : pilier 1 = 8/13 (≈62 %), pilier 2 = 3/13 (≈23 %), pilier 3 = 2/13 (≈15 %). Pilier 1 légèrement au-dessus de la cible 60 % (effet de la règle de bascule, appliquée faute d'alternative pilier 2 qualifiée), pilier 2 sous la cible 30 % (23 %), pilier 3 au-dessus de la cible 10 % (15 %). Prochaine session : privilégier un sujet pilier 2 réellement neuf en priorité absolue si le seuil de 14/25 est atteint en veille, pour corriger l'écart qui se creuse légèrement.
+
+- PR #15 `cahier-de-consignes-securite-maroc` — pilier 1 — nouveau, adjacent au cluster 6 (main courante), intention distincte. Score 17/25, ajouté le 2026-09-05.
 
 ## Signaux mots-clés vérifiés ce run (2026-09-02)
 
