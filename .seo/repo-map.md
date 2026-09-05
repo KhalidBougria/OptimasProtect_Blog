@@ -1,6 +1,14 @@
 # Cartographie du dépôt — OptimasProtect_Blog
 
-Dernière mise à jour : 2026-09-03 (semaine S36). Ce fichier est un document de travail vivant ; pour l'historique détaillé jour par jour, voir `.seo/rapports/`.
+Dernière mise à jour : 2026-09-05 (semaine S36). Ce fichier est un document de travail vivant ; pour l'historique détaillé jour par jour, voir `.seo/rapports/`.
+
+## Point du 2026-09-05 : 1 article produit (PR #15), 13 PR ouvertes, toujours aucune fusion
+
+PR #15 (`cahier-de-consignes-securite-maroc`, pilier 1, score 17/25) ajoutée ce run — nouveau sujet distinct du hub main courante, voir `.seo/backlog.md`. Le dépôt compte désormais **13 pull requests ouvertes depuis le 2026-08-22, aucune fusionnée** après plus de deux semaines. Ce point continue de croître sans qu'aucune action humaine n'ait eu lieu.
+
+`site:optimasprotect.ma` reconfirmé à 0 résultat pertinent indexé ce run (recherche web). `robots.txt` toujours hors du périmètre autorisé pour l'outil de fetch de cette session, donc toujours non vérifié directement. L'alerte haute « aucun générateur de site connecté à ce dépôt » (voir section dédiée plus bas) reste active et non résolue.
+
+Accès au dépôt reconfirmé ce run : authentifié en tant que `KhalidBougria` (propriétaire du compte), permissions `push: true` / `admin: true` inchangées.
 
 ## Point du 2026-09-03 : journée de veille seule, aucun nouveau sujet retenu, 12 PR toujours ouvertes
 
@@ -22,7 +30,7 @@ PR #14 (`faux-pointage-ads-detecter-maroc`, pilier 1, cluster 9, score 16/25) aj
 
 ## Point du 2026-08-31 : 11 PR ouvertes, toujours aucune fusion
 
-PR #13 (`obligations-loi-27-06-employeur-maroc`, hub conformité, score 18/25) ajoutée ce run. Le dépôt compte désormais **11 pull requests ouvertes depuis le 2026-08-22, aucune fusionnée** — plus d'une semaine sans relecture humaine. Ce n'est pas en soi une alerte nouvelle (la Phase 1 fonctionne comme prévu), mais le volume croissant de PR en attente devient un point à signaler explicitement dans chaque rapport : au-delà d'un certain nombre, l'utilité de continuer à produire sans qu'aucune relecture n'ait lieu mérite d'être réévaluée par l'utilisateur.
+PR #13 (`obligations-loi-27-06-employeur-maroc`, hub conformité, score 18/25) ajoutée ce run. Le dépôt compte désormais **11 pull requests ouvertes depuis le 2026-08-22, aucune fusionnée** — plus d'une semaine sans relecture humaine. Ce n'est pas en soi une alerte nouvelle (la Phase 1 fonctionne comme prévu), mais le volume croissant de PR en attente devient un point à signaler explicitement dans chaque rapport : au-delà d'un certain nombre, l'utilité de continuer à produire sans qu'aucune relecture n'ait lieu même d'être réévaluée par l'utilisateur.
 
 `site:optimasprotect.ma` reconfirmé à 0 résultat indexé ce run (recherche web). L'alerte haute « aucun générateur de site connecté à ce dépôt » (voir section dédiée plus bas) reste active et non résolue.
 
@@ -31,9 +39,9 @@ PR #13 (`obligations-loi-27-06-employeur-maroc`, hub conformité, score 18/25) a
 Le prompt de référence `.seo/agent-prompt.md` (version 3.2, PR #11 mergée le 2026-08-29 à 08:25:27Z) tranche les deux points laissés en suspens le 2026-08-29 :
 
 1. **Structure d'URL :** `/articles/{slug}` est confirmée comme cible correcte (et non `/blog/{slug}`), conformément au lien footer observé sur le site live. Confirmé par l'utilisateur.
-2. **Orthographe de la marque :** `OptimasProtect` en un seul mot remplace « Optimas Protect » à partir de maintenant (production future uniquement), conformément à l'orthographe du site live.
+2. **Orthographe de la marque :** `OptimasProtect` en un seul mot remplace « optimas Protect » à partir de maintenant (production future uniquement), conformément à l'orthographe du site live.
 
-**Vérification spot-check ce run :** l'article `controle-de-ronde-nfc-gardiennage-maroc` (branche `article/*`, PR #1) utilise déjà des liens internes en `/articles/{slug}` et la forme « OptimasProtect » (un mot) dans le corps et le JSON-LD - les 9 articles de PR ont donc vraisemblablement déjà été corrigés sur ces deux points lors du PR #11, contrairement à ce que sa description laissait entendre sur la marque. À vour au prochain article : confirmer que les 9 articles n'ont aucune occurrence résiduelle de `/blog/` ou de `Optimas Protect` (deux mots) avant leur éventuelle fusion. Aucun champ `canonical` explicite n'est présent dans le frontmatter de cet article (champ optionnel) : à ajouter systématiquement sur les prochains articles pour lever toute ambiguïté.
+**Vérification spot-check ce run :** l'article `controle-de-ronde-nfc-gardiennage-maroc` (branche `article/*`, PR #1) utilise déjà des liens internes en `/articles/{slug}` et la forme « OptimasProtect » (un mot) dans le corps et le JSON-LD - les 9 articles de PR ont donc vraisemblablement déjà été corrigés sur ces deux points lors du PR #11, contrairement à ce que sa description laissait entendre sur la marque. À voir au prochain article : confirmer que les 9 articles n'ont aucune occurrence résiduelle de `/blog/` ou de `Optimas Protect` (deux mots) avant leur éventuelle fusion. Aucun champ `canonical` explicite n'est présent dans le frontmatter de cet article (champ optionnel) : à ajouter systématiquement sur les prochains articles pour lever toute ambiguïté.
 
 Conséquence : la pause de production décidée le 2026-08-29 pour motif d'incertitude sur l'URL est levée. La seule raison de pause restant ce run (2026-08-30) est la cadence hebdomadaire déjà largement dépassée (voir rapport du jour).
 
