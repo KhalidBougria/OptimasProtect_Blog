@@ -3,12 +3,13 @@ title: "Rapport d'intervention ADS : modèle et contenu au Maroc"
 description: "Ce que doit contenir un rapport d'intervention d'agent de sécurité au Maroc : nature de l'incident, horodatage, preuve, suite donnée, validation."
 slug: "rapport-intervention-ads-maroc"
 tags: ["Gestion des incidents", "Portail client", "Gardiennage", "Maroc"]
-date: "2026-08-27"
+date: "2026-09-06"
 author: "Team Optimas"
 draft: true
 focus_keyword: "rapport d'intervention agent de sécurité"
 pillar: "2"
 score: 15
+canonical: "https://optimasprotect.ma/articles/rapport-intervention-ads-maroc"
 ---
 
 # Rapport d'intervention ADS : modèle et contenu au Maroc
@@ -16,6 +17,10 @@ score: 15
 Un rapport d'intervention documente un événement précis, hors ronde de routine : une intrusion constatée, une anomalie technique, un comportement suspect, un sinistre. Pour être exploitable par un client, il doit réunir cinq éléments datés : la date et l'heure exactes, le site concerné, la nature de l'incident, l'agent qui l'a constaté et signalé, les actions engagées et leur statut de résolution. Sans ces cinq éléments, le document reste un compte rendu oral mis par écrit, pas une preuve d'intervention.
 
 La preuve, pas la promesse : un rapport d'intervention ne vaut que par ce qu'il permet de vérifier après coup, pas par la qualité de sa rédaction.
+
+## Rapport d'incident ou rapport d'intervention : une même exigence, deux appellations
+
+Sur le terrain marocain, les deux termes s'emploient concurremment selon la société ou le donneur d'ordre : « rapport d'incident » chez les uns, « rapport d'intervention » chez les autres, pour désigner le même document. Aucune norme sectorielle n'impose l'un des deux termes. Ce qui compte n'est pas l'intitulé retenu dans vos procédures internes, mais que le document réunisse les sept éléments détaillés plus bas. Un rapport d'incident qui omet le statut de résolution ou la validation du responsable d'exploitation n'est pas plus exploitable qu'un rapport d'intervention qui commet la même omission.
 
 ## Rapport d'intervention, rapport de ronde, main courante : ne pas confondre
 
@@ -42,6 +47,21 @@ Un rapport d'intervention solide réunit systématiquement :
 7. **Une validation identifiée** du responsable d'exploitation avant transmission.
 
 Un rapport qui ne réunit pas ces sept points reste une déclaration de l'agent seul, difficile à faire valoir face à un client qui conteste une prestation ou en interne face à un donneur d'ordre exigeant.
+
+## Modèle de rapport d'intervention prêt à remplir
+
+| Champ | À renseigner |
+|---|---|
+| Site et date | Ex. : site Aïn Sebaâ, entrepôt B — 06/09/2026 |
+| Heure du constat | Heure exacte, horodatée au moment des faits |
+| Agent | Nom et matricule de l'agent ayant constaté et signalé |
+| Nature de l'incident | Catégorie précise : intrusion, anomalie technique, comportement suspect, sinistre, panne d'équipement |
+| Description factuelle | Faits observés, sans interprétation ni jugement sur les personnes impliquées |
+| Personnes prévenues et heure | Qui a été alerté, à quelle heure, par quel moyen |
+| Statut de résolution | Traité / en cours / transmis au client pour décision |
+| Validation | Nom du responsable d'exploitation ayant validé avant transmission |
+
+Ce modèle reste valable quel que soit le nom retenu en interne pour le document. Reproduit dans un tableur ou une main courante papier, il fonctionne déjà mieux qu'une note libre ; numérisé et horodaté automatiquement, il élimine le premier défaut décrit ci-dessous : l'horodatage reconstitué de mêmoire.
 
 ## Pourquoi un rapport rédigé après coup convainc rarement
 
@@ -84,6 +104,9 @@ Cela dépend des exigences du client ou du cahier des charges concerné ; en l'a
 **Un rapport d'intervention doit-il être transmis immédiatement au client ?**
 Pour les incidents à enjeu réel, un délai court renforce la valeur du document ; un rapport transmis plusieurs jours après les faits, sans preuve horodatée sous-jacente, perd une partie de sa force probante.
 
+**Rapport d'incident et rapport d'intervention désignent-ils le même document ?**
+Dans la pratique du gardiennage au Maroc, oui : les deux termes désignent le même type de document, celui qui documente un événement isolé hors routine. Le choix de l'un ou l'autre relève de l'habitude de l'entreprise, pas d'une exigence réglementaire distincte.
+
 ---
 
 OptimasProtect se teste sur un site pilote, sans engagement long. La première ronde peut être opérationnelle en moins d'une heure.
@@ -98,7 +121,8 @@ OptimasProtect se teste sur un site pilote, sans engagement long. La première r
     "name": "OptimasProtect",
     "url": "https://optimasprotect.ma/a-propos"
   },
-  "datePublished": "2026-08-27"
+  "datePublished": "2026-08-27",
+  "dateModified": "2026-09-06"
 }
 ```
 
@@ -137,6 +161,14 @@ OptimasProtect se teste sur un site pilote, sans engagement long. La première r
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pour les incidents à enjeu réel, un délai court renforce la valeur du document ; un rapport transmis plusieurs jours après les faits, sans preuve horodatée sous-jacente, perd une partie de sa force probante."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Rapport d'incident et rapport d'intervention désignent-ils le même document ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dans la pratique du gardiennage au Maroc, oui : les deux termes désignent le même type de document, celui qui documente un événement isolé hors routine. Le choix de l'un ou l'autre relève de l'habitude de l'entreprise, pas d'une exigence réglementaire distincte."
       }
     }
   ]
