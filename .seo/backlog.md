@@ -1,12 +1,30 @@
 # Backlog éditorial — OptimasProtect
 
-Dernière mise à jour : 2026-09-05 (semaine S36).
+Dernière mise à jour : 2026-09-06 (semaine S36).
+
+## Décision prise ce run (2026-09-06)
+
+**0 nouvel article, 1 enrichissement** : `rapport-intervention-ads-maroc` (PR #10, pilier 2, score inchangé 15/25). Signal identifié via autocomplete (`gl=ma`, `hl=fr`) sur `fiche incident agent de sécurité` → suggestions récurrentes `exemple rapport d'incident agent de sécurité pdf`. Relecture complète de l'article existant : intention recoupant largement celle déjà couverte (« rapport d'incident » et « rapport d'intervention » désignent le même document sur le terrain marocain). Décision anti-doublon (§0) : enrichissement plutôt que nouvel article. Ajouts : section de clarification terminologique, modèle de rapport prêt à remplir (tableau à 8 champs, répond directement à l'intention « exemple ... pdf »), 5e question FAQ. Frontmatter : `date` → 2026-09-06, ajout du champ `canonical` (absent auparavant). JSON-LD `Article`/`FAQPage` mis à jour (`dateModified`, 5e Q/R).
+
+Rotation testée ce run, ciblée en priorité sur le pilier 2 (écart de ratio non résorbé depuis plusieurs runs) : `tableau de bord sécurité privée client`, `rapport mensuel gardiennage client`, `cahier de liaison sécurité privée`, `fiche incident agent de sécurité`, `logiciel gestion client société de sécurité`, `extranet client gardiennage`, `badge NFC ronde de sécurité`, `preuve de passage agent de sécurité`, `comment vérifier ronde agent de sécurité`, `société de sécurité privée preuve de service`, `modèle rapport d'incident agent de sécurité`, `temps de réponse agent de sécurité`, `comment prouver une ronde effectuée`, `vérification prestations société de sécurité`, `logiciel main courante gardiennage`, `solution digitale gardiennage Maroc`, `combien coûte un logiciel de ronde`, `logiciel de sécurité gardiennage avis`, `agent de sécurité qui dort pendant sa ronde`, `audit sécurité privée gardiennage Maroc`. Seuls 2 signaux exploitables sur 20 (voir ci-dessus et ci-dessous), les 18 autres à 0 suggestion — régime pauvre en autocomplete toujours confirmé sur ce marché.
+
+Second signal, non retenu ce run : `logiciel main courante gardiennage` → `logiciel main courante sécurité`, `logiciel main courante sécurité gratuit`. Recoupe l'intention déjà couverte par PR #4 (`main-courante-electronique-maroc`) ; l'angle « gratuit » trop proche pour justifier un article séparé. Conservé en observation.
+
+`trends_interest` (`geo=MA`, 12 mois) sur `rapport d'incident agent de sécurité`, `rapport de ronde`, `cahier de consignes sécurité` : plat à 0 sur toute la période et toutes les régions.
+
+**Aucun sujet pilier 1, 2 ou 3 réellement neuf n'a passé le seuil de 14/25 pour un nouvel article ce run.** L'écart de ratio pilier 2 (23 % avant ce run contre 30 % cible) reste non résorbé en nombre d'articles, l'effort ayant été redirigé vers l'enrichissement qualitatif d'un article pilier 2 existant plutôt que la création d'un article pilier 1 supplémentaire ou un doublon.
+
+Veille concurrentielle : grille tarifaire de SEKUR Africa précisée (Pack Jeune Entreprise 69,99 € HT/mois, Pack Gestion 99,99 € HT/mois, Pack Terrain 9,99 € HT/mois, essai gratuit 14 jours), cohérente avec l'opacité tarifaire déjà documentée côté Maroc. Trackforce Valiant : positionnement inchangé, confirmation tierce (jobsquare.ma) de son usage au Maroc comme système de supervision de rondes, aucune action nouvelle. Aucun nouvel acteur marocain détecté.
+
+`site:optimasprotect.ma` reconfirmé à 0 résultat pertinent indexé (recherche web) — homonymes sans rapport uniquement.
+
+**Point signalé avec insistance croissante :** le dépôt compte toujours **13 pull requests ouvertes depuis le 2026-08-22, aucune fusionnée**, après plus de deux semaines. Ce point est signalé sans interruption depuis le 2026-08-31 et continue de croître en ancienneté sans qu'aucune action humaine n'ait eu lieu. L'alerte haute « aucun générateur de site connecté à ce dépôt » (voir `.seo/repo-map.md`) reste elle aussi active et non résolue.
 
 ## Décision prise ce run (2026-09-05)
 
 **1 article produit ce run** : `cahier-de-consignes-securite-maroc` (PR #15, pilier 1, score 17/25, `draft: true`). Sujet identifié via autocomplete (`gl=ma`, `hl=fr`) sur « cahier de consignes sécurité » (1 suggestion) puis validé par recherche web : SEKUR (sekur.fr) commercialise une fonctionnalité dédiée « Cahier de consignes » (`sekur.fr/cahier-de-consignes-logiciel-gestion-securite-privee/`), confirmant l'intention business malgré un volume mesurable faible sur ce marché — cohérent avec le régime pauvre en autocomplete déjà documenté ci-dessous.
 
-Nouvelle rotation testée ce run sur des angles pilier 2 non essayés précédemment : « SLA prestation gardiennage », « réclamation client société de sécurité », « litige client société de sécurité preuve », « indicateurs qualité prestation gardiennage » : **0 suggestion pour toutes**, confirmant une fois de plus le régime pauvre en autocomplete sur ce marché pour les angles pilier 2. Rotation pilier 3 testée (« carte professionnelle agent de sécurité Maroc », « congés agent de sécurité Maroc ») : également 0 suggestion. Trends (`geo=MA`, 12 mois) sur trois requêtes pilier 2 : erreur 429 (Google Trends temporairement indisponible ce run, à retenter la prochaine session).
+Nouvelle rotation testée ce run sur des angles pilier 2 non essayés précédemment : « SLA prestation gardiennage », « réclamation client société de sécurité », « litige client société de sécurité preuve », « indicateurs qualité prestation gardiennage » : *0 suggestion pour toutes*, confirmant une fois de plus le régime pauvre en autocomplete sur ce marché pour les angles pilier 2. Rotation pilier 3 testée (« carte professionnelle agent de sécurité Maroc », « congés agent de sécurité Maroc ») : également 0 suggestion. Trends (`geo=MA`, 12 mois) sur trois requêtes pilier 2 : erreur 429 (Google Trends temporairement indisponible ce run, à retenter la prochaine session).
 
 **Décision anti-doublon (§0) :** relecture complète de `main-courante-electronique-maroc` (PR #4) avant rédaction. Le cahier de consignes (instructions permanentes du site, sens donneur d'ordre → agent) est distinct de la main courante (journal d'événements, sens agent → responsable) ; les deux se complètent sans se recouper. Intention confirmée suffisamment distincte pour justifier un nouvel article plutôt qu'un enrichissement.
 
@@ -16,14 +34,17 @@ Nouvelle rotation testée ce run sur des angles pilier 2 non essayés précédem
 
 **Point signalé avec insistance croissante :** le dépôt compte désormais **13 pull requests ouvertes depuis le 2026-08-22, aucune fusionnée** après plus de deux semaines. Ce point est signalé sans interruption depuis le 2026-08-31 et continue de croître en ancienneté sans qu'aucune action humaine n'ait eu lieu. L'alerte haute « aucun générateur de site connecté à ce dépôt » (voir `.seo/repo-map.md`) reste elle aussi active et non résolue.
 
-
 ## Décision prise ce run (2026-09-03)
 
-Aucun article produit ni enrichi ce run. Rotation de mots-clés ciblée sur des angles pilier 1 (clusters 1/2/4) et pilier 2/3 non testés les runs précédents : « logiciel gestion société de sécurité Maroc », « meilleur logiciel gardiennage Maroc », « application ronde agent de sécurité », « traçabilité agents de sécurité Maroc », « reporting mensuel client sécurité privée », « transparence prestations sécurité privée Maroc », « logiciel congés agents de sécurité Maroc », « gestion RH société de sécurité Maroc », « société de sécurité privée Maroc logiciel » : **0 suggestion pour toutes** (autocomplete `gl=ma`, `hl=fr`). Expansion alphabet sur les graines « logiciel gardiennage » et « pointage agent » : aucun signal exploitable — soit hors sujet (logiciels grand public, résultats anglophones parasites), soit déjà couvert par PR #4 (« logiciel registre sécurité ») et PR #6 (« logiciel planning sécurité privée »). Trends (`geo=MA`, 12 mois) sur « logiciel gardiennage maroc », « prix logiciel securite privee », « portail client securite » : plat à 0 sur toute la période et sur toutes les régions.
+Aucun article produit ni enrichi ce run. Rotation de mots-clés ciblée sur des angles pilier 1 (clusters 1/2/4) et pilier 2/3 non testés les runs précédents : « logiciel gestion société de sécurité Maroc », « meilleur logiciel gardiennage Maroc », « application ronde agent de sécurité », « traçabilité agents de sécurité Maroc », « reporting mensuel client sécurité privée », « transparence prestations sécurité privée Maroc », « logiciel congés agents de sécurité Maroc », « gestion RH société de sécurité Maroc », « société de sécurité privée Maroc logiciel » : *0 suggestion pour toutes*, confirmant une nouvelle fois le régime pauvre en autocomplete sur ce marché. Expansion alphabet sur « logiciel gardiennage » et « pointage agent » : aucun signal exploitable (bruit hors sujet ou redites déjà couvertes par PR #4/#6). Trends (`geo=MA`, 12 mois) sur trois requêtes pilier 1/2 : plat à 0 partout.
 
-**Constat structurel :** les 10 clusters prioritaires du §4.2 ont désormais chacun au moins un article en PR (voir table ci-dessous). Aucun angle assez distinct n'est remonté aujourd'hui pour justifier un 13e article sans risquer un doublon d'intention avec un des 12 déjà en attente. Conformément à la règle « une journée sans article publié est normale, une journée sans veille ne l'est pas » (§4.1), ce run est une journée de veille seule.
+Constat structurel : les 10 clusters prioritaires du §4.2 ont désormais chacun au moins un article en PR (voir table dans `.seo/repo-map.md`). Le travail journalier de ce run n'a fait remonter aucun angle assez distinct pour justifier un 13e article sans risquer un doublon d'intention. Conformément à la règle « une journée sans article publié est normale, une journée sans veille ne l'est pas » (§4.1), aucun article n'a été produit ce run ; la veille a été menée jusqu'au bout.
 
-**Recommandation pour la prochaine session :** l'autocomplete et Trends sont désormais quasi systématiquement à 0 sur ce marché depuis plusieurs runs consécutifs — la boussole a atteint ses limites pratiques avec les outils actuels. Envisager de creuser plutôt via lecture directe des sites concurrents (pages FAQ, forums professionnels marocains, avis clients) ou via l'accès Search Console une fois configuré (voir alerte technique), plutôt que de répéter la même rotation autocomplete.
+Veille concurrentielle reconfirmée par recherche web ce run : SEKUR (sekur.fr / sekur-africa.com) toujours en tarification EUR uniquement, aucune nouvelle page ni changement de positionnement détecté. Trackforce Valiant toujours positionné à l'international, pricing sur devis. Aucun nouvel acteur marocain détecté.
+
+`site:optimasprotect.ma` reconfirmé à 0 résultat pertinent indexé ce run (recherche web). `robots.txt` toujours hors du périmètre autorisé pour l'outil de fetch de cette session, donc toujours non vérifié directement.
+
+**Point signalé avec insistance croissante :** le dépôt compte désormais 13 pull requests ouvertes depuis le 2026-08-22, aucune fusionnée après plus de deux semaines. Ce point est signalé sans interruption depuis le 2026-08-31 et continue de croître en ancienneté sans qu'aucune action humaine n'ait eu lieu. L'alerte haute « aucun générateur de site connecté à ce dépôt » (voir `.seo/repo-map.md`) reste elle aussi active et non résolue.
 
 ## Décision prise le run précédent (2026-09-02)
 
@@ -36,9 +57,9 @@ Décision anti-doublon (§0) : la relecture complète du contenu existant de PR 
 
 Les deux sujets scorés sont donc retirés de la file d'attente (résolus par enrichissement, pas par nouvel article).
 
-**Aucun sujet pilier 2 réellement neuf n'a passé le seuil de 14/25 ce run** (voir signaux ci-dessous) : conformément à la règle de bascule (§0), l'effort est resté sur le pilier 1.
+**Aucun sujet pilier 2 réellement neuf n'a passé le seuil de 14/25 ce run** : conformément à la règle de bascule (§0), l'effort est resté sur le pilier 1.
 
-## PR ouvertes (en attente de relecture humaine) — inchangé, 12 PR
+## PR ouvertes (en attente de relecture humaine)
 
 - PR #1 `controle-de-ronde-nfc-gardiennage-maroc` — pilier 1 — hub pilier 1.
 - PR #2 `prix-logiciel-gardiennage-maroc` — pilier 1 — hub prix.
@@ -46,33 +67,12 @@ Les deux sujets scorés sont donc retirés de la file d'attente (résolus par en
 - PR #5 `portail-client-securite-privee-maroc` — pilier 2.
 - PR #6 `planning-agents-securite-maroc` — pilier 3.
 - PR #7 `modele-rapport-de-ronde-maroc` — pilier 1 — cluster 5.
-- PR #8 `cahier-des-charges-gardiennage-maroc` — pilier 1 — cluster 7, hub conformité. **Enrichie ce run (voir ci-dessus).** Article réglementaire, reste en PR en permanence (§3.3).
+- PR #8 `cahier-des-charges-gardiennage-maroc` — pilier 1 — cluster 7, hub conformité. Article réglementaire, reste en PR en permanence (§3.3).
 - PR #9 `application-pointage-ads-maroc` — pilier 1 — cluster 3.
-- PR #10 `rapport-intervention-ads-maroc` — pilier 2 — cluster 5 (variante).
+- PR #10 `rapport-intervention-ads-maroc` — pilier 2 — cluster 5 (variante). **Enrichie le 2026-09-06** (synonyme « rapport d'incident » + modèle prêt à remplir).
 - PR #12 `loi-32-26-agents-securite-maroc` — pilier 3 — Loi n°32.26 (journée de 8h). Score 21/25, article réglementaire, reste en PR en permanence.
 - PR #13 `obligations-loi-27-06-employeur-maroc` — pilier 1 — cluster 8, hub conformité. Score 18/25, article réglementaire, reste en PR en permanence.
 - PR #14 `faux-pointage-ads-detecter-maroc` — pilier 1 — cluster 9. Score 16/25, article non réglementaire.
+- PR #15 `cahier-de-consignes-securite-maroc` — pilier 1 — adjacent au cluster 6 (main courante), intention distincte. Score 17/25, ajouté le 2026-09-05.
 
-**13 PR ouvertes, aucune fusionnée à ce jour** (dépôt actif depuis le 2026-08-22, plus de deux semaines sans relecture humaine — ce point continue de croître). Répartition par pilier : pilier 1 = 8/13 (≈62 %), pilier 2 = 3/13 (≈23 %), pilier 3 = 2/13 (≈15 %). Pilier 1 légèrement au-dessus de la cible 60 % (effet de la règle de bascule, appliquée faute d'alternative pilier 2 qualifiée), pilier 2 sous la cible 30 % (23 %), pilier 3 au-dessus de la cible 10 % (15 %). Prochaine session : privilégier un sujet pilier 2 réellement neuf en priorité absolue si le seuil de 14/25 est atteint en veille, pour corriger l'écart qui se creuse légèrement.
-
-- PR #15 `cahier-de-consignes-securite-maroc` — pilier 1 — nouveau, adjacent au cluster 6 (main courante), intention distincte. Score 17/25, ajouté le 2026-09-05.
-
-## Signaux mots-clés vérifiés ce run (2026-09-02)
-
-Autocomplete (`gl=ma`, `hl=fr`) sur des reformulations pilier 2 / cluster 9 non testées les runs précédents : « logiciel gestion incidents sécurité privée », « reporting client société de sécurité », « suivi intervention agent de sécurité », « registre incidents gardiennage », « compte rendu intervention sécurité privée », « audit prestations sécurité privée », « notification incident client sécurité », « preuve intervention agent sécurité », « digitalisation gardiennage Maroc » : 0 suggestion pour toutes. Confirme une nouvelle fois un marché pauvre en autocomplete sur ces angles.
-
-Signal positif obtenu sur des requêtes déjà couvertes (validation, pas nouveauté) : « rapport de ronde » (expand) fait remonter « rapport de ronde de sécurité », « rapport de ronde de sécurité formulaire », « exemple rapport de ronde agent de sécurité », « rapport de ronde pdf » — confirme la pertinence de PR #7 déjà produite (cluster 5), aucune action nouvelle nécessaire. « logiciel gardiennage » (expand) fait remonter « logiciel planning sécurité privée » (déjà couvert par PR #6) et « logiciel registre sécurité » (proche de la main courante électronique, déjà couverte par PR #4) — pas de sujet distinct retenu, doublons d'intention évités.
-
-Signal faible isolé : « pointage agent de sécurité » (expand) fait remonter « feuille de pointage agent de sécurité », qui n'a pas de suggestions propres à l'expansion — signal trop faible pour passer le seuil de scoring aujourd'hui, à garder en observation.
-
-Trends (`geo=MA`, 12 mois) sur « logiciel gardiennage maroc », « controle de ronde », « pointage agent securite » : plat à 0 sur toute la période sauf un pic isolé à 100 pour « logiciel gardiennage maroc » le 2026-02-08 (un seul point, à interpréter avec prudence, cohérent avec le comportement déjà documenté sur ce marché à faible volume absolu).
-
-## Veille concurrentielle (vérifiée ce run)
-
-- **SEKUR Africa** : grille tarifaire reconfirmée par recherche web ce run, avec des paliers observés (Pack Jeune Entreprise, Pack Gestion, Pack Terrain) en euros — cohérent avec l'opacité tarifaire déjà documentée côté Maroc (aucun prix en MAD affiché). Nouvelle page de comparatif sectoriel déjà notée les runs précédents (`sekur.fr/meilleurs-logiciels-securite-privee-2026/`), aucun changement de positionnement Maroc.
-- **Trackforce Valiant** : toujours positionné à l'international, pricing sur devis. Un article tiers (jobsquare.ma) confirme que Trackforce Valiant et GuardTek sont utilisés comme systèmes de supervision de rondes au Maroc — cohérent avec le cercle 2 déjà documenté, aucune action nouvelle.
-- Aucun nouvel acteur marocain détecté ce run.
-
-## Rappel technique (non résolu, alerte haute permanente)
-
-Voir `.seo/repo-map.md` : absence de générateur de site connecté au dépôt. `site:optimasprotect.ma` reconfirmé à 0 résultat pertinent indexé ce run (recherche web) — les seuls résultats retournés concernent des entreprises homonymes sans rapport (Optimas Solutions, OptiRTC, etc.), confirmant que le domaine `optimasprotect.ma` n'est pas indexé ou n'a pas de contenu correspondant en ligne. Ce point est distinct de la structure d'URL déjà arbitrée (`/articles/{slug}`) : même si l'URL cible est connue, rien ne prouve que ce dépôt alimente réellement le site live.
+**13 PR ouvertes, aucune fusionnée à ce jour** (dépôt actif depuis le 2026-08-22, plus de deux semaines sans relecture humaine — ce point continue de croître). Répartition par pilier : pilier 1 = 9/13 (~69 %), pilier 2 = 3/13 (~23 %), pilier 3 = 2/13 (~15 %) — recalcul après ajout de PR #15 (pilier 1) le 2026-09-05. Pilier 1 au-dessus de la cible 60 % (effet de la règle de bascule, appliquée faute d'alternative pilier 2 qualifiée), pilier 2 sous la cible 30 %, pilier 3 au-dessus de la cible 10 %. Prochaine session : privilégier un sujet pilier 2 réellement neuf en priorité absolue si le seuil de 14/25 est atteint en veille, pour corriger l'écart qui se creuse légèrement.
