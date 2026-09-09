@@ -1,6 +1,27 @@
 # Backlog éditorial — OptimasProtect
 
-Dernière mise à jour : 2026-09-08 (semaine S37).
+Dernière mise à jour : 2026-09-09 (semaine S37).
+
+## Décision prise ce run (2026-09-09)
+
+**0 nouvel article, 0 enrichissement.** Rotation testée ce run, priorité pilier 2 (écart de ratio non résorbé depuis plusieurs runs) : `portail client rapport incident sécurité`, `main courante incident sécurité privée`, `délai de réponse incident sécurité privée`, `preuve intervention agent de sécurité`, `historique interventions société de sécurité`, `tableau de bord client sécurité privée`, `alerte sécurité temps réel site client`, `suivi ronde en temps réel client`, `export rapport mensuel sécurité gardiennage`, `logiciel gestion incident sécurité` ; pilier 1 : `digitaliser main courante gardiennage`, `remplacer registre papier gardiennage`, `badge NFC ronde de sécurité`, `erreur de pointage agent de sécurité`, `logiciel de sécurité gardiennage devis`, `logiciel de ronde de sécurité sans matériel` ; pilier 3 : `turnover agent de sécurité Maroc solution` : **0 suggestion exploitable sur 16 des 17 requêtes**, régime pauvre en autocomplete confirmé une nouvelle fois.
+
+Deux signaux identifiés :
+
+- `rapport incident sécurité` (+ `rapport d'incident de sécurité`) → intention déjà couverte par la PR #10 (`rapport-intervention-ads-maroc`), enrichie le 2026-09-06 avec précisément ce synonyme. Anti-doublon, pas de nouvel article.
+- `gestion de conflit agent de sécurité` / `gestion des conflits agent de sécurité` / `formation gestion de crise agent de sécurité` → intention formation/conduite du personnel, exclue par la règle §4.3.2 (têtes de requête emploi/formation). Non retenu.
+
+`trends_interest` (`geo=MA`, 12 mois) sur `rapport incident sécurité`, `logiciel gardiennage Maroc`, `controle de ronde` : plat à 0 sur toutes les régions testées.
+
+**Aucun sujet pilier 1, 2 ou 3 réellement neuf n'a passé le seuil de 14/25 ce run.** Aucune création ni aucun enrichissement n'a été retenu — conformément à la logique anti-doublon et à la règle « une journée sans article publié est normale, une journée sans veille ne l'est pas » (§4.1). L'écart de ratio pilier 2 (toujours sous la cible de 30 %) reste donc non résorbé ce run, faute de signal exploitable dans ce pilier.
+
+Veille concurrentielle : SEKUR / SEKUR Africa toujours en tarification EUR uniquement pour l'offre France (à partir de 99,99 €/mois/6 utilisateurs), opacité tarifaire MAD côté Maroc toujours confirmée, aucun changement de positionnement détecté. Trackforce Valiant : positionnement international inchangé, pricing sur devis, aucune adaptation Maroc identifiée. **Nouveaux acteurs détectés ce run : `secumall.ma` et `kver.ma`**, revendeurs marocains de contrôleurs de ronde physiques (boîtiers Rondier/RFID) — matériel, pas logiciel SaaS ; renforce le différenciateur « sans matériel dédié » d'Optimas, à garder en tête pour un futur contenu comparatif sans dénigrement nominal (§8.2). GRS Maroc : société de gardiennage cliente potentielle utilisant elle-même la technologie NFC en interne, pas un éditeur concurrent.
+
+`site:optimasprotect.ma` reconfirmé à 0 résultat pertinent indexé (recherche web).
+
+**Vérification structurelle ce run :** la racine de `main` a été recontrôlée directement (listing API) et ne contient que le dossier `.seo/` — aucun `content/blog`, aucun générateur, aucun `.github/workflows`. Ceci infirme dans l'état actuel l'alerte historique de la PR #9 (2026-08-26) sur un workflow de force-push vers `main` : ce mécanisme n'est pas actif sur `main` tel que constaté ce jour. À resurveiller si un pipeline est branché.
+
+**Point signalé avec insistance croissante :** le dépôt compte toujours **13 pull requests ouvertes depuis le 2026-08-22, aucune fusionnée**, soit désormais **18 jours** sans relecture humaine. Ce point est signalé sans interruption depuis le 2026-08-31 et continue de croître en ancienneté sans qu'aucune action humaine n'ait eu lieu. L'alerte haute « aucun générateur de site connecté à ce dépôt » (voir `.seo/repo-map.md`) reste elle aussi active et non résolue.
 
 ## Décision prise ce run (2026-09-08)
 
@@ -13,20 +34,6 @@ Deux signaux identifiés, tous deux déjà couverts par des PR existantes (anti-
 
 `trends_interest` (`geo=MA`, 12 mois) sur `logiciel de ronde`, `digitalisation gardiennage`, `pointage agent sécurité` : aucune série temporelle exploitable (`interest_over_time` vide), un seul pic isolé sur une région (Tadla-Azilal, valeur 100, toutes les autres régions à 0) — signal trop ponctuel pour être retenu.
 
-**Aucun sujet pilier 1, 2 ou 3 réellement neuf n'a passé le seuil de 14/25 ce run**, et les deux signaux identifiés recoupent des intentions déjà traitées en profondeur dans des PR existantes. Conformément à la logique anti-doublon et à la règle « une journée sans article publié est normale, une journée sans veille ne l'est pas » (§4.1), aucune création ni aucun enrichissement n'a été retenu ce run. L'écart de ratio pilier 2 (toujours sous la cible de 30 %) reste non résorbé, faute de signal exploitable dans ce pilier.
-
-Veille concurrentielle : SEKUR (`sekur.fr/meilleurs-logiciels-securite-privee-2026/`) et SEKUR Africa toujours en tarification EUR uniquement pour l'offre France, opacité tarifaire MAD côté Maroc toujours confirmée — aucun changement de positionnement détecté depuis le run précédent. Trackforce Valiant : positionnement international inchangé (300 000+ professionnels, 30 000+ sites, 45 pays), pricing toujours sur devis, aucune adaptation Maroc identifiée. Aucun nouvel acteur marocain détecté.
-
-`site:optimasprotect.ma` reconfirmé à 0 résultat pertinent indexé (recherche web) — mêmes homonymes sans rapport (Optimas Solutions, OptiRTC, etc.) remontent.
-
-**Point signalé avec insistance croissante :** le dépôt compte toujours **13 pull requests ouvertes depuis le 2026-08-22, aucune fusionnée**, soit désormais **17 jours** sans relecture humaine. Ce point est signalé sans interruption depuis le 2026-08-31 et continue de croître en ancienneté sans qu'aucune action humaine n'ait eu lieu. L'alerte haute « aucun générateur de site connecté à ce dépôt » (voir `.seo/repo-map.md`) reste elle aussi active et non résolue.
-
-## Décision prise ce run (2026-09-07)
-
-**0 nouvel article, 0 enrichissement.** Rotation testée ce run, à nouveau ciblée en priorité sur le pilier 2 (écart de ratio non résorbé depuis plusieurs runs) avec quelques angles pilier 1 et pilier 3 non essayés précédemment : `compte rendu de ronde de sécurité` (suggestions hors sujet, contexte québécois « SAAQ », aucun signal marocain exploitable), `suivi qualité prestation sécurité privée`, `rapport d'anomalie gardiennage`, `notification incident sécurité temps réel`, `traçabilité prestations société de sécurité`, `gestion réclamations société de sécurité`, `logiciel supervision gardiennage`, `avis client société de sécurité gardiennage`, `logiciel de contrôle de ronde Maroc`, `meilleure application de pointage agent de sécurité`, `gestion des congés agents de sécurité Maroc`, `taux de rotation agent de sécurité Maroc`, `carence agent de sécurité remplacement`, `absentéisme agent de sécurité solution`, `rapport activité mensuel société de sécurité` : **0 suggestion pour les 15**, régime pauvre en autocomplete une nouvelle fois confirmé sur ce marché, y compris sur des angles jusque-là non testés.
-
-`trends_interest` (`geo=MA`, 12 mois) sur `logiciel gardiennage Maroc`, `controle de ronde`, `pointage agent de securite` : plat à 0 sur toutes les régions testées, aucun signal `related_top`/`related_rising`.
-
 **Aucun sujet pilier 1, 2 ou 3 réellement neuf n'a passé le seuil de 14/25 ce run.** Les 10 clusters prioritaires du §4.2 ayant déjà chacun au moins un article en PR, et aucun angle testé ce run n'apportant un signal ou une intention suffisamment distincte, aucune création ni aucun enrichissement n'a été retenu — conformément à la logique anti-doublon et à la règle « une journée sans article publié est normale, une journée sans veille ne l'est pas » (§4.1). L'écart de ratio pilier 2 (toujours sous la cible de 30 %, voir répartition ci-dessous) reste donc non résorbé ce run, faute de signal exploitable dans ce pilier.
 
 Veille concurrentielle : SEKUR a publié une nouvelle page comparative datée 2026, `sekur.fr/meilleurs-logiciels-securite-privee-2026/` (« Les 5 meilleurs logiciels pour agences de sécurité privée & de gardiennage en 2026 »), qui semble succéder à la version « 2025 » déjà documentée (`sekur-africa.com/meilleurs-logiciels-securite-privee-2025/`). Format à garder en tête comme idée de contenu futur pour le hub prix ou pilier 2, avec la prudence habituelle sur la comparaison nominale (§8.2) — aucune action ce run. SEKUR Africa se présente par ailleurs comme née en 2024 (repositionnement) ; une mise à jour produit mineure (SEKUR Africa 4.31) a également été repérée sans impact sur le positionnement ou les prix déjà documentés. Trackforce Valiant : positionnement international inchangé, pricing toujours sur devis, aucune adaptation Maroc identifiée. Aucun nouvel acteur marocain détecté.
@@ -34,20 +41,6 @@ Veille concurrentielle : SEKUR a publié une nouvelle page comparative datée 20
 `site:optimasprotect.ma` reconfirmé à 0 résultat pertinent indexé (recherche web) — seuls des homonymes sans rapport (Optimas Solutions, OptiRTC, etc.) remontent.
 
 **Point signalé avec insistance croissante :** le dépôt compte toujours **13 pull requests ouvertes depuis le 2026-08-22, aucune fusionnée**, après plus de deux semaines. Ce point est signalé sans interruption depuis le 2026-08-31 et continue de croître en ancienneté sans qu'aucune action humaine n'ait eu lieu. L'alerte haute « aucun générateur de site connecté à ce dépôt » (voir `.seo/repo-map.md`) reste elle aussi active et non résolue.
-
-## Décision prise le run précédent (2026-09-05)
-
-**1 article produit ce run** : `cahier-de-consignes-securite-maroc` (PR #15, pilier 1, score 17/25, `draft: true`). Sujet identifié via autocomplete (`gl=ma`, `hl=fr`) sur « cahier de consignes sécurité » (1 suggestion) puis validé par recherche web : SEKUR (sekur.fr) commercialise une fonctionnalité dédiée « Cahier de consignes » (`sekur.fr/cahier-de-consignes-logiciel-gestion-securite-privee/`), confirmant l'intention business malgré un volume mesurable faible sur ce marché — cohérent avec le régime pauvre en autocomplete déjà documenté ci-dessous.
-
-Nouvelle rotation testée ce run sur des angles pilier 2 non essayés précédemment : « SLA prestation gardiennage », « réclamation client société de sécurité », « litige client société de sécurité preuve », « indicateurs qualité prestation gardiennage » : *0 suggestion pour toutes*, confirmant une fois de plus le régime pauvre en autocomplete sur ce marché pour les angles pilier 2. Rotation pilier 3 testée (« carte professionnelle agent de sécurité Maroc », « congés agent de sécurité Maroc ») : éfalement 0 suggestion. Trends (`geo=MA`, 12 mois) sur trois requêtes pilier 2 : erreur 429 (Google Trends temporairement indisponible ce run, à retenter la prochaine session).
-
-**Décision anti-doublon (§0) :** relecture complète de `main-courante-electronique-maroc` (PR #4) avant rédaction. Le cahier de consignes (instructions permanentes du site, sens donneur d'ordre → agent) est distinct de la main courante (journal d'événements, sens agent → responsable) ; les deux se complètent sans se recouper. Intention confirmés suffisamment distincte pour justifier un nouvel article plutôt qu'un enrichissement.
-
-**Application de la règle de bascule (§0) :** aucun sujet pilier 2 réellement neuf n'a passé le seuil de 14/25 ce run (voir signaux ci-dessus). Le sujet cahier de consignes, bien que pouvant recouper les piliers 1 et 3, a été classé pilier 1 (traçabilité et preuve de transmission des consignes) conformément à la priorité du §0 en l'absence d'alternative pilier 2 qualifiée. L'écart de ratio pilier 2 (25 % contre 30 % cible) n'est donc pas résorbé ce run ; à traiter en priorité dès qu'un sujet pilier 2 franchit le seuil.
-
-`site:optimasprotect.ma` reconfirmé à 0 résultat pertinent indexé ce run (recherche web) — mêmes homonymes sans rapport. `robots.txt` toujours hors du périmètre autorisé pour l'outil de fetch de cette session, donc toujours non vérifié directement.
-
-**Point signalé avec insistance croissante :** le dépôt compte désormais **13 pull requests ouvertes depuis le 2026-08-22, aucune fusionnée** après plus de deux semaines. Ce point est signalé sans interruption depuis le 2026-08-31 et continue de croître en ancienneté sans qu'aucune action humaine n'ait eu lieu. L'alerte haute « aucun générateur de site connecté à ce dépôt » (voir `.seo/repo-map.md`) reste elle aussi active et non résolue.
 
 ## PR ouvertes (en attente de relecture humaine)
 
