@@ -1,6 +1,18 @@
 # Cartographie du dépôt — OptimasProtect_Blog
 
-Dernière mise à jour : 2026-09-05 (semaine S36). Ce fichier est un document de travail vivant ; pour l'historique détaillé jour par jour, voir `.seo/rapports/`.
+Dernière mise à jour : 2026-09-11 (semaine S37). Ce fichier est un document de travail vivant ; pour l'historique détaillé jour par jour, voir `.seo/rapports/`.
+
+## Point du 2026-09-11 : 1 article produit (PR #16), 14 PR ouvertes, toujours aucune fusion, alerte outillage Bash
+
+PR #16 (`controle-qualite-prestation-gardiennage-maroc`, pilier 2, score 17/25) ajoutée ce run — priorité pilier 2 pour corriger l'écart de ratio signalé depuis le 2026-08-31. Le dépôt compte désormais **14 pull requests ouvertes depuis le 2026-08-22, aucune fusionnée**, soit **20 jours** sans relecture humaine. Ce point continue de croître sans qu'aucune action humaine n'ait eu lieu.
+
+**Alerte outillage ce run :** le bac à sable Bash de la session est resté indisponible toute la durée du run (erreur de montage liée à une mise à jour Windows du 8 septembre, déjà rencontrée lors du run précédent du 2026-09-10). Contournement appliqué avec succès via le navigateur intégré : lecture des fichiers `.seo/*.md` en texte brut via `raw.githubusercontent.com`, encodage base64 du contenu à committer via `TextEncoder`/`btoa` exécuté côté page avant l'appel `create_or_update_file`. Aucune perte de qualité constatée, mais ce contournement multiplie les appels par rapport à une session Bash fonctionnelle.
+
+Accès au dépôt reconfirmé ce run : authentifié en tant que `KhalidBougria` (propriétaire du compte), permissions `push: true` / `admin: true` inchangées, voie technique connecteur MCP GitHub local. L'alerte haute « aucun générateur de site connecté à ce dépôt » (voir section dédiée plus bas) reste active et non résolue — non revérifiée en profondeur ce run faute d'accès Bash, mais rien n'indique de changement.
+
+Veille concurrentielle reconfirmée par recherche web ce run : SEKUR / SEKUR Africa toujours en tarification EUR uniquement pour l'offre France, opacité MAD toujours confirmée côté Maroc, aucun changement de positionnement détecté. Aucun nouvel acteur marocain détecté (au-delà de `secumall.ma` et `kver.ma`, déjà documentés le 2026-09-09, revendeurs de matériel physique et non éditeurs logiciels concurrents).
+
+`site:optimasprotect.ma` reconfirmé à 0 résultat pertinent indexé ce run (recherche web).
 
 ## Point du 2026-09-05 : 1 article produit (PR #15), 13 PR ouvertes, toujours aucune fusion
 
