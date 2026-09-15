@@ -1,6 +1,20 @@
 # Backlog editorial - OptimasProtect
 
-Derniere mise a jour : 2026-09-12 (semaine S37).
+Derniere mise a jour : 2026-09-15 (semaine S38).
+
+## Decision prise ce run (2026-09-15)
+
+0 nouvel article, 0 enrichissement. Rotation testee ce run, 18 requetes sur des angles non essayes precedemment (voir liste complete dans le rapport du jour .seo/rapports/2026-09-15.md) : audit ronde de securite, preuve de service gardiennage, checklist ronde de securite, alternative Excel gardiennage, digitaliser main courante gardiennage, logiciel conformite cahier des charges securite, preuve horodatee passage agent, solution sans materiel gardiennage, logiciel main courante incident securite, portail client suivi prestation securite, rapport journalier gardiennage client, logiciel planning agents de securite, gestion absences agents de securite, evaluation performance agent de securite, registre de securite numerique gardiennage, preuve de passage ronde gardiennage, appel d'offres gardiennage cahier des charges Maroc, logiciel gestion societe de securite Maroc, EasyGard logiciel gardiennage.
+
+Deux suggestions sur 18. « guide ronde de securite » : bruit hors cible (derives quebecois vehicule lourd / SAAQ), non exploitable. « logiciel planning agent de securite gratuit » : score de demande 2/5, niche, et intention deja entierement couverte par PR 6 (planning-agents-securite-maroc), y compris une FAQ dediee sur le sujet gratuit. Aucun nouvel article, aucune mise a jour necessaire.
+
+trends_interest fonctionnel ce run (pas de 429) sur logiciel gardiennage Maroc / controle de ronde / pointage agent securite (geo=MA) : interet a 0 partout, aucune requete associee. Regime pauvre en signal de demande confirme une nouvelle fois.
+
+Decouverte concurrentielle ce run, documentee en detail dans .seo/repo-map.md et le rapport du jour : EasyGard, logiciel edite par SGGI (Marrakech), positionne gestion des societes de gardiennage (pointage, paie, facturation), oriente pilier 3 (RH/paie), sans fonctionnalite de tracabilite NFC identifiee. Ajoute au cercle 1 de la veille concurrentielle pour les prochains runs. SEKUR / SEKUR Africa et Trackforce Valiant : aucun changement de positionnement ou de prix detecte.
+
+Synchronisation du site live : le sitemap.xml liste desormais les 14 articles du pipeline (rattrapage confirme par rapport aux 12 constates les 2026-09-12 et 2026-09-14). Le second canal /blog/ independant de ce depot est toujours present (voir alertes dans repo-map.md).
+
+Repartition par pilier inchangee depuis le 2026-09-11 : pilier 1 = 8/14 (~57%), pilier 2 = 4/14 (~29%), pilier 3 = 2/14 (~14%), proche de la cible 60/30/10.
 
 ## Decision prise ce run (2026-09-12)
 
@@ -14,7 +28,7 @@ Decouverte majeure ce run, documentee en detail dans .seo/repo-map.md et .seo/ra
 
 Veille concurrentielle (recherche web ce run) : SEKUR / SEKUR Africa toujours en tarification EUR uniquement pour l'offre France, opacite MAD toujours confirmee cote Maroc, aucun changement de positionnement detecte. Trackforce Valiant toujours positionne a l'international, pricing sur devis, aucune adaptation Maroc identifiee. Aucun nouvel acteur marocain detecte au-dela de secumall.ma et kver.ma, deja documentes.
 
-Alerte outillage ce run : le bac a sable Bash de cette session est reste indisponible toute la duree du run (meme erreur de montage Windows du 8 septembre que les runs precedents). Contournement applique avec succes via le navigateur integre.
+Alerte outillage ce run : le bac a sable Bash de cette session est reste indisponible toute la duree du run (meme erreur de montage Windows du 8 septembre). Contournement applique avec succes via le navigateur integre.
 
 Point signale avec insistance croissante, a relire avec la nuance de la decouverte ci-dessus : le depot compte toujours 14 pull requests ouvertes depuis le 2026-08-22, aucune fusionnee, soit 21 jours au 2026-09-12. Ce point est signale sans interruption depuis le 2026-08-31, mais sa portee doit desormais etre relativisee : le contenu ne semble pas bloque en pratique, il atteint le site par un autre canal que la fusion GitHub.
 
@@ -26,7 +40,7 @@ Repartition par pilier inchangee depuis le 2026-09-11 (aucun ajout) : pilier 1 =
 
 trends_interest (geo=MA, 12 mois) sur justificatif de ronde, preuve de passage, document ronde de securite : deux pics isoles sur des semaines distinctes, aucune serie exploitable.
 
-Veille concurrentielle (recherche web ce run) : recherche controle qualite prestation gardiennage securite privee Maroc fait remonter un article de presse (Le Matin.ma) mentionnant une intensification des controles de l'inspection du travail en 2024 sur les entreprises de securite - source non autorisee au sens du paragraphe 8.3 (presse, pas une source primaire de la liste), chiffre non repris dans l'article produit. SEKUR / SEKUR Africa : aucun changement de positionnement ou de tarification detecte. Aucun nouvel acteur marocain detecte.
+Veille concurrentielle (recherche web ce run) : recherche controle qualite prestation gardiennage securite privee Maroc fait remonter un article de presse (Le Matin.ma) mentionnant une intensification des controles de l'inspection du travail en 2024 sur les entreprises de securite, source non autorisee au sens du paragraphe 8.3 (presse, pas une source primaire de la liste), chiffre non repris dans l'article produit. SEKUR / SEKUR Africa : aucun changement de positionnement ou de tarification detecte. Aucun nouvel acteur marocain detecte.
 
 site:optimasprotect.ma reconfirme a 0 resultat pertinent indexe ce run (recherche web).
 
@@ -42,9 +56,9 @@ Deux signaux identifies : rapport incident securite deja couvert par PR 10 (rapp
 
 Aucun sujet pilier 1, 2 ou 3 reellement neuf n'a passe le seuil de 14/25 ce run.
 
-Veille concurrentielle : SEKUR / SEKUR Africa toujours en tarification EUR uniquement pour l'offre France, opacite tarifaire MAD cote Maroc toujours confirmee. Nouveaux acteurs detectes ce run : secumall.ma et kver.ma, revendeurs marocains de controleurs de ronde physiques - materiel, pas logiciel SaaS.
+Veille concurrentielle : SEKUR / SEKUR Africa toujours en tarification EUR uniquement pour l'offre France, opacite tarifaire MAD cote Maroc toujours confirmee. Nouveaux acteurs detectes ce run : secumall.ma et kver.ma, revendeurs marocains de controleurs de ronde physiques, materiel, pas logiciel SaaS.
 
-Verification structurelle ce run : la racine de main a ete recontrolee directement et ne contient que le dossier .seo/ - aucun content/blog, aucun generateur, aucun .github/workflows.
+Verification structurelle ce run : la racine de main a ete recontrolee directement et ne contient que le dossier .seo/, aucun content/blog, aucun generateur, aucun .github/workflows.
 
 Point signale avec insistance croissante : le depot compte toujours 13 pull requests ouvertes depuis le 2026-08-22, aucune fusionnee, soit desormais 18 jours sans relecture humaine.
 
@@ -74,7 +88,7 @@ Point signale avec insistance croissante : le depot compte toujours 13 pull requ
 - PR 12 loi-32-26-agents-securite-maroc - pilier 3 - Loi n32.26 (journee de 8h). Score 21/25, article reglementaire, reste en PR en permanence.
 - PR 13 obligations-loi-27-06-employeur-maroc - pilier 1 - cluster 8, hub conformite. Score 18/25, article reglementaire, reste en PR en permanence.
 - PR 14 faux-pointage-ads-detecter-maroc - pilier 1 - cluster 9. Score 16/25, article non reglementaire.
-- PR 15 cahier-de-consignes-securite-maroc - pilier 1 - adjacent au cluster 6 (main courante), intention distincte. Score 17/25, ajoute le 2026-09-05.
-- PR 16 controle-qualite-prestation-gardiennage-maroc - pilier 2 - methodologie de controle qualite. Score 17/25, ajoute le 2026-09-11.
+- PR 15 cahier-de-consignes-securite-maroc - pilier 1 - adjacent au cluster 6 (main courante), intention distincte. Score 17/25, ajoutee le 2026-09-05.
+- PR 16 controle-qualite-prestation-gardiennage-maroc - pilier 2 - methodologie de controle qualite. Score 17/25, ajoutee le 2026-09-11.
 
-14 PR ouvertes depuis le 2026-08-22, soit 21 jours au 2026-09-12, toujours aucune fusionnee sur GitHub a ce jour. Voir toutefois la decouverte du 2026-09-12 (documentee dans .seo/repo-map.md et le rapport du jour) : le contenu de 12 de ces articles est deja en ligne sur le site public malgre l'absence de fusion, via un mecanisme externe non identifie avec precision. Repartition par pilier inchangee : pilier 1 = 8/14 (~57%), pilier 2 = 4/14 (~29%), pilier 3 = 2/14 (~14%), proche de la cible 60/30/10. Prochaine session : continuer a privilegier le pilier 2 si un sujet reellement neuf passe le seuil de 14/25, sinon revenir au pilier 1 conformement a la regle de bascule (paragraphe 0).
+14 PR ouvertes depuis le 2026-08-22, soit 24 jours au 2026-09-15, toujours aucune fusionnee sur GitHub a ce jour (seules les PR 3 et 11, corrections du prompt de reference, sont fusionnees). Voir toutefois la decouverte du 2026-09-12 et sa confirmation du 2026-09-15 (documentees dans .seo/repo-map.md) : le contenu de la totalite des 14 articles est desormais visible sur le site public malgre l'absence de fusion. Repartition par pilier inchangee : pilier 1 = 8/14 (~57%), pilier 2 = 4/14 (~29%), pilier 3 = 2/14 (~14%), proche de la cible 60/30/10. Prochaine session : continuer a privilegier le pilier 2 ou 3 si un sujet reellement neuf passe le seuil de 14/25, sinon revenir au pilier 1 conformement a la regle de bascule (paragraphe 0).
