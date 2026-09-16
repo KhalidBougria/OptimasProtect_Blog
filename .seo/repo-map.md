@@ -1,3 +1,39 @@
+## Point du 2026-09-16 : aucun nouvel article, robots.txt simplifié (blocs anti-bot IA disparus), pas de nouveau concurrent majeur
+
+Accès dépôt reconfirmé : authentifié KhalidBougria (propriétaire du compte, pas obougria), permissions push:true / admin:true inchangées, connecteur MCP GitHub local (local_unpacked_qunfei-wu_github-mcp-server-js). Bash indisponible tout le run, même erreur de montage Windows que depuis le 8 septembre ; contournement navigateur intégré à nouveau utilisé avec succès pour lire sitemap.xml, robots.txt et pour fetch/encoder les mises a jour committees (fetch + btoa via javascript_tool, en l'absence de Bash).
+
+Prompt de référence relu intégralement depuis .seo/agent-prompt.md (version 3.2) : à jour, aucune divergence. Note pour mémoire : le texte reproduit dans le corps de la tâche planifiée elle-même diverge encore sur trois points déjà corrigés côté dépôt (Loi n°35-09 au lieu de 27-06, structure /blog/ au lieu de /articles/, "Optimas Protect" en deux mots au lieu d'un seul) ; conformément aux instructions de bootstrap, c'est la version du dépôt qui prime, appliquée intégralement ce run.
+
+### Sitemap et robots.txt
+
+Sitemap.xml reconfirmé : toujours les 14 articles du pipeline en ligne sous /articles/, plus le second canal /blog/main-courante-electronique-vs-papier toujours présent, inchangé.
+
+Changement constaté sur robots.txt : le fichier est désormais réduit à deux lignes (User-agent: * / Allow: /) plus la directive Sitemap. Les blocs Cloudflare Content-Signal (search=yes / ai-train=no) et les Disallow ciblant les crawlers d'entraînement IA nommés (GPTBot, CCBot, Google-Extended, ClaudeBot, Bytespider, Applebot-Extended, CloudflareBrowserRenderingCrawler) documentés lors des vérifications précédentes ont disparu. Sans impact sur l'indexation : Googlebot reste explicitement autorisé (Allow: /) comme avant. A signaler comme changement factuel de configuration côté site, hors périmètre d'action de cet agent.
+
+### Veille mots-clés et SERP
+
+Marché ciblé : Maroc (gl=ma, hl=fr). Rotation de 15 requêtes sur des angles non testés lors des runs précédents (voir cumul dans les rapports du 08 au 15 septembre) : solution de contrôle de ronde pour société de sécurité, meilleur logiciel de gardiennage Maroc, logiciel de gardiennage gratuit, démo logiciel gardiennage, essai gratuit logiciel sécurité privée, modèle cahier des charges sécurité privée, attestation de service fait gardiennage, preuve de prestation gardiennage client, gestion multi-sites agents de sécurité, logiciel sécurité privée cloud Maroc, coût logiciel de pointage agents de sécurité, tableau de bord sécurité privée, audit de conformité gardiennage Maroc, pointage biométrique agent de sécurité Maroc, avis logiciel gardiennage.
+
+Deux suggestions obtenues sur 15, toutes deux déjà couvertes : « logiciel de gardiennage gratuit » renvoie « logiciel planning agent de sécurité gratuit », intention déjà entièrement traitée par la branche planning-agents-securite-maroc (PR 6, FAQ dédiée). « Modèle cahier des charges sécurité privée » renvoie « cahier des charges sécurité privée », combinaison déjà couverte par cahier-des-charges-gardiennage-maroc (PR 8, hub conformité) ; à noter que « cahier des charges » seul en tête sèche reste une tête de requête à ne pas attaquer frontalement (règle 4.3.7). Régime pauvre en autocomplete confirmé une nouvelle fois sur ce marché, conforme au constat répété depuis plusieurs semaines.
+
+Aucun sujet réellement neuf (pilier 1, 2 ou 3) n'a passé le seuil de production de 14/25 ce run.
+
+### Veille concurrentielle
+
+SEKUR / SEKUR Africa : recherche web ce run sur sekur-africa.com montre des paliers tarifaires publics en EUR (Pack Jeune Entreprise 69,99€ HT/mois, Pack Gestion 99,99€ HT/mois, Pack Terrain 9,99€ HT/mois) affichés directement sur le site Afrique, et non plus seulement sur l'offre France (sekur.fr) comme documenté précédemment. Renforce encore le différenciateur prix en MAD d'Optimas Protect : même le site à vocation africaine du concurrent direct facture en euros, aucune opacité MAD levée côté Maroc.
+
+EasyGard / SGGI (Marrakech) : reconfirmé positionné gestion RH/paie des agents (pointage, primes, calcul de paie, facturation client), toujours aucune fonctionnalité de traçabilité NFC ou de preuve de passage identifiée, toujours aucun prix public trouvé. Aucun changement de positionnement depuis sa découverte le 2026-09-15.
+
+Trackforce Valiant : toujours positionné à l'international, pricing sur devis, aucune adaptation Maroc identifiée. Aucun nouvel acteur marocain détecté au-delà de ceux déjà documentés (SEKUR Africa, EasyGard/SGGI, secumall.ma, kver.ma).
+
+### Décision de production
+
+Aucun nouvel article produit ni mis à jour ce run. Les 10 clusters prioritaires du paragraphe 4.2 restent tous couverts par au moins un article en PR, la rotation de mots-clés n'a fait remonter aucun signal de demande exploitable non déjà couvert, et le seuil de 14/25 n'a été franchi par aucun sujet neuf. Conforme à la règle qu'une journée sans article publié est normale, une journée sans veille ne l'est pas (paragraphe 4.1), et à la priorité qualité avant quota (paragraphe 8.4).
+
+Répartition par pilier inchangée depuis le 2026-09-11 : pilier 1 = 8/14 (~57%), pilier 2 = 4/14 (~29%), pilier 3 = 2/14 (~14%), proche de la cible 60/30/10.
+
+Le dépôt compte toujours 14 PR d'articles ouvertes depuis le 2026-08-22, soit 25 jours au 2026-09-16, aucune fusionnée sur GitHub (seules les PR 3 et 11, corrections du prompt de référence, sont fusionnées — reconfirmé ce run via list_pull_requests état closed). Voir toutefois les points des 2026-09-12 et 2026-09-15 : le contenu de la totalité des 14 articles est visible sur le site public malgré l'absence de fusion, via un mécanisme non identifié avec précision.
+
 # Cartographie du depot - OptimasProtect_Blog
 
 Derniere mise a jour : 2026-09-15 (semaine S38). Ce fichier est un document de travail vivant ; pour l'historique detaille jour par jour, voir .seo/rapports/.
