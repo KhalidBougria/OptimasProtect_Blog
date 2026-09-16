@@ -1,3 +1,19 @@
+## Decision prise ce run (2026-09-16)
+
+0 nouvel article, 0 enrichissement. Rotation testee ce run, 15 requetes sur des angles non essayes precedemment (voir liste complete dans le rapport du jour .seo/rapports/2026-09-16.md) : solution de controle de ronde pour societe de securite, meilleur logiciel de gardiennage Maroc, logiciel de gardiennage gratuit, demo logiciel gardiennage, essai gratuit logiciel securite privee, modele cahier des charges securite privee, attestation de service fait gardiennage, preuve de prestation gardiennage client, gestion multi-sites agents de securite, logiciel securite privee cloud Maroc, cout logiciel de pointage agents de securite, tableau de bord securite privee, audit de conformite gardiennage Maroc, pointage biometrique agent de securite Maroc, avis logiciel gardiennage.
+
+Deux suggestions sur 15, toutes deux deja couvertes (logiciel planning agent de securite gratuit vers PR 6 ; cahier des charges securite privee vers PR 8). Regime pauvre en autocomplete confirme une nouvelle fois.
+
+Decouverte concurrentielle ce run : SEKUR Africa affiche desormais des paliers tarifaires publics en EUR sur son propre site Afrique (sekur-africa.com : Pack Jeune Entreprise 69,99EUR HT/mois, Pack Gestion 99,99EUR HT/mois, Pack Terrain 9,99EUR HT/mois), en plus de son offre France deja documentee. EasyGard/SGGI et Trackforce Valiant inchanges. Aucun nouvel acteur marocain detecte.
+
+Changement technique constate : robots.txt simplifie (les blocs anti-bot IA nommes Cloudflare Content-Signal, GPTBot, CCBot, Google-Extended, ClaudeBot, Bytespider, Applebot-Extended, CloudflareBrowserRenderingCrawler ont disparu), sans impact sur Googlebot, toujours explicitement autorise.
+
+Synchronisation du site live : sitemap.xml reconfirme toujours les 14 articles du pipeline en ligne sous /articles/, plus le second canal /blog/ (main-courante-electronique-vs-papier) toujours present, inchange. Alertes 1 et 2 de repo-map.md non resolues, reportees telles quelles.
+
+Repartition par pilier inchangee depuis le 2026-09-11 : pilier 1 = 8/14 (~57%), pilier 2 = 4/14 (~29%), pilier 3 = 2/14 (~14%), proche de la cible 60/30/10.
+
+Le depot compte toujours 14 PR ouvertes depuis le 2026-08-22, soit 25 jours au 2026-09-16, aucune fusionnee sur GitHub (seules les PR 3 et 11 sont fusionnees, reconfirme ce run).
+
 # Backlog editorial - OptimasProtect
 
 Derniere mise a jour : 2026-09-15 (semaine S38).
