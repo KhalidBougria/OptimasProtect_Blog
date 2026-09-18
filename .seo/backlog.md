@@ -1,3 +1,17 @@
+## Decision prise ce run (2026-09-18)
+
+0 nouvel article, 0 enrichissement. Rotation testee ce run, 16 requetes sur des angles non essayes precedemment (voir liste complete dans le rapport du jour .seo/rapports/2026-09-18.md) : comment prouver une ronde de securite, rapport de ronde automatique, fiche de ronde de securite, cahier de presence agent de securite, gestion des rondes de nuit gardiennage, pointage agent de securite sans carte, solution digitale gardiennage PME Maroc, logiciel de gestion des interventions securite, alternative a Trackforce Maroc, cout d'un logiciel de gestion de securite privee, societe de securite avis client, KPI societe de securite privee, logiciel facturation societe de securite, indicateur de performance gardiennage, gestion du materiel agents de securite, convention collective gardiennage Maroc.
+
+Deux suggestions sur 16, aucune exploitable : fiche de ronde de securite vers rapport/exemple de rapport de ronde de securite (bruit quebecois SAAQ), deja couvert par PR 7 (modele-rapport-de-ronde-maroc) ; indicateur de performance gardiennage vers indicateur de performance securite generique (HSE), hors sujet. Regime pauvre en autocomplete confirme une nouvelle fois. trends_interest indisponible ce run (429 sur geo=MA). topic_demand_score sur gestion du materiel agents de securite : score 1/5.
+
+Veille concurrentielle (recherche web ce run) : SEKUR / SEKUR Africa confirme tarification publique en EUR sur son propre site Afrique (Pack Jeune Entreprise 69,99EUR HT/mois, Pack Gestion 99,99EUR HT/mois, Pack Terrain 9,99EUR HT/mois), plus page comparative 2026 sur sekur.fr (hors perimetre Maroc). EasyGard/SGGI et Trackforce Valiant inchanges. KVER et SecuMall reconfirmes comme revendeurs de materiel physique (cercle 3), pas des concurrents logiciels. Aucun nouvel acteur marocain detecte.
+
+Sitemap.xml et robots.txt reverifies via navigateur (Bash indisponible tout le run, meme erreur de montage Windows depuis le 8 septembre) : inchanges depuis le 2026-09-16, toujours 14 articles du pipeline en ligne sous /articles/, plus le second canal /blog/ (main-courante-electronique-vs-papier) toujours present. Alertes de repo-map.md non resolues, reportees telles quelles.
+
+Repartition par pilier inchangee depuis le 2026-09-11 : pilier 1 = 8/14 (~57%), pilier 2 = 4/14 (~29%), pilier 3 = 2/14 (~14%), proche de la cible 60/30/10.
+
+Le depot compte toujours 14 PR ouvertes depuis le 2026-08-22, soit 27 jours au 2026-09-18, aucune fusionnee sur GitHub (seules les PR 3 et 11 le sont, reconfirme ce run via list_pull_requests et list_branches).
+
 ## Decision prise ce run (2026-09-16)
 
 0 nouvel article, 0 enrichissement. Rotation testee ce run, 15 requetes sur des angles non essayes precedemment (voir liste complete dans le rapport du jour .seo/rapports/2026-09-16.md) : solution de controle de ronde pour societe de securite, meilleur logiciel de gardiennage Maroc, logiciel de gardiennage gratuit, demo logiciel gardiennage, essai gratuit logiciel securite privee, modele cahier des charges securite privee, attestation de service fait gardiennage, preuve de prestation gardiennage client, gestion multi-sites agents de securite, logiciel securite privee cloud Maroc, cout logiciel de pointage agents de securite, tableau de bord securite privee, audit de conformite gardiennage Maroc, pointage biometrique agent de securite Maroc, avis logiciel gardiennage.
