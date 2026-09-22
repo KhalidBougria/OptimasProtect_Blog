@@ -1,3 +1,19 @@
+## Decision prise ce run (2026-09-22)
+
+0 nouvel article, 0 enrichissement. Ecart de run de 4 jours (dernier rapport le 2026-09-18, aucune execution constatee les 09-19/20/21). Rotation testee ce run, 13 requetes sur des angles non essayes precedemment (voir liste complete dans le rapport du jour .seo/rapports/2026-09-22.md) : avis client societe de gardiennage Maroc, comparatif logiciel gardiennage, societe de securite amende cahier des charges, modele main courante gardiennage, erreur de pointage agent de securite, loi 32.26 agents de securite, gestion de flotte agents de securite, rapport de ronde PDF, societe de securite cahier des charges type, combien coute une ronde de securite, journee de travail agent de securite Maroc loi, logiciel de securite privee avis, cahier des charges securite privee modele.
+
+Deux suggestions sur 13, toutes deux deja couvertes : modele main courante gardiennage vers modele main courante securite pdf/excel, deja couvert par main-courante-electronique-maroc (PR4) ; rapport de ronde PDF vers rapport de ronde pdf / rapport ronde de securite pdf, deja couvert par modele-rapport-de-ronde-maroc (PR7). trends_interest (geo=MA) : interet a 0 partout, aucune requete associee. Regime pauvre en signal de demande confirme.
+
+Veille concurrentielle ce run : deux logiciels internationaux non documentes jusqu'ici identifies et ecartes apres verification directe des sites — BanetteOne (banetteone.com) et eBrigade (ebrigade.app), tous deux France uniquement (references CNAPS/SSIAP/convention collective francaise pour eBrigade, clientele exclusivement francaise pour BanetteOne). Traites comme cercle 2 (international), non ajoutes au cercle 1 Maroc. TRACKTIK identifie dans les resultats mais confirme etre le meme editeur que Trackforce Valiant (fusion ancienne), pas un nouvel acteur. SEKUR Africa, EasyGard/SGGI, Trackforce Valiant : non revérifiés en détail ce run, aucun changement attendu.
+
+Alerte outillage nouvelle ce run : le bac a sable Bash a echoue au demarrage avec un message different de l'erreur de montage Windows habituelle (« Workspace unavailable. The isolated Linux environment failed to start (VM service not running...) »), cause potentiellement distincte a surveiller. Contournement navigateur integre + API GitHub MCP applique avec succes. Un premier commit de mise a jour de .seo/repo-map.md a ete tronque par erreur (10500 octets au lieu de ~41 Ko) puis corrige dans le meme run par un second commit avec le contenu complet reconstruit et verifie.
+
+Sitemap.xml et robots.txt reverifies via navigateur : inchanges depuis le 2026-09-16, toujours 14 articles du pipeline sous /articles/, second canal /blog/ toujours present. Alertes de repo-map.md non resolues, reportees telles quelles.
+
+Repartition par pilier inchangee depuis le 2026-09-11 : pilier 1 = 8/14 (~57%), pilier 2 = 4/14 (~29%), pilier 3 = 2/14 (~14%), proche de la cible 60/30/10.
+
+Le depot compte toujours 14 PR ouvertes depuis le 2026-08-22, soit 31 jours au 2026-09-22, aucune fusionnee sur GitHub.
+
 ## Decision prise ce run (2026-09-18)
 
 0 nouvel article, 0 enrichissement. Rotation testee ce run, 16 requetes sur des angles non essayes precedemment (voir liste complete dans le rapport du jour .seo/rapports/2026-09-18.md) : comment prouver une ronde de securite, rapport de ronde automatique, fiche de ronde de securite, cahier de presence agent de securite, gestion des rondes de nuit gardiennage, pointage agent de securite sans carte, solution digitale gardiennage PME Maroc, logiciel de gestion des interventions securite, alternative a Trackforce Maroc, cout d'un logiciel de gestion de securite privee, societe de securite avis client, KPI societe de securite privee, logiciel facturation societe de securite, indicateur de performance gardiennage, gestion du materiel agents de securite, convention collective gardiennage Maroc.
