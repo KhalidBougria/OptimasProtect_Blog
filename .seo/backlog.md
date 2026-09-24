@@ -1,3 +1,25 @@
+## Decision prise ce run (2026-09-24)
+
+0 nouvel article, 0 enrichissement. Ecart de run de 1 jour ouvre (dernier rapport le 2026-09-22, pas d'execution constatee le 2026-09-23). Acces au bac a sable Bash retabli ce run (fonctionnel de bout en bout, contrairement a la sequence d'indisponibilite documentee du 8 septembre au 22 septembre) ; utilise pour decoder/encoder les fichiers .seo/* en complement du connecteur MCP GitHub. Un jeton GITHUB_TOKEN est present dans l'environnement mais son usage direct en API REST echoue sur ce depot precis (message : acces GitHub non active pour cette session sur ce repo, add_repo requis) ; le connecteur MCP GitHub reste donc la voie d'ecriture utilisee ce run, conformement au bootstrap.
+
+Rotation testee ce run, 16 requetes sur des angles non essayes precedemment (gl=ma, hl=fr) : logiciel de pointage agent de securite sans smartphone, badge NFC agent de securite prix, comment digitaliser une ronde de securite, preuve de passage agent securite client, solution de pointage pour agents de securite Maroc, rapport de ronde en temps reel, application de ronde de securite Maroc, logiciel de gestion des reclamations securite privee, suivi des interventions de securite en ligne, logiciel de main courante numerique gardiennage, portail client gardiennage Maroc, logiciel de gestion des agents de securite Maroc, gestion des contrats agents de securite, comparateur logiciel securite privee, application ronde de securite gratuite, societe de securite digitalisation Maroc.
+
+0 suggestion sur 16 (pire resultat de la serie ; les runs precedents obtenaient generalement 1 a 2 suggestions). Regime pauvre en autocomplete confirme une nouvelle fois, avec une intensite record ce run. Aucun sujet reellement neuf (pilier 1, 2 ou 3) n'a franchi le seuil de 14/25.
+
+Search Console : premiere tentative reelle d'appel via l'outil gsc_query sur sc-domain:optimasprotect.ma ce run (mcp__SEO_Advena__gsc_query, jusque-la seulement signale comme non configure au bootstrap sans etre teste techniquement) : erreur 403, l'utilisateur authentifie n'a pas la permission suffisante sur cette propriete GSC. Confirme noir sur blanc que l'acces Search Console n'est toujours pas accorde pour ce compte de service ; aucun changement par rapport au statut documente.
+
+Veille concurrentielle (recherche web ciblee) : un acteur marocain supplementaire identifie et verifie directement, IBE MAROC (International Business Engineering, Casablanca, ibe.ma) avec son produit Guard Online, un controleur de rondes materiel (boitiers WM-5000P5+ sans GPS et WM5000L5 avec GPS, transfert des pointages par GPRS vers un serveur consultable en ligne). Aucun prix public affiche. Ce n'est pas un logiciel SaaS NFC/smartphone comparable a OptimasProtect mais un systeme de pointeurs/badgeuses physiques avec remontee GPRS : classe cercle 3 (substitut materiel, non surveillable comme concurrent logiciel direct), a l'instar de KVER/SecuMall. Non ajoute au cercle 1. SEKUR Africa, EasyGard/SGGI, Trackforce Valiant : non revérifiés en detail ce run (dernieres verifications du 09-16 au 09-22 jugees suffisamment recentes), aucun changement attendu.
+
+### Etat du depot
+
+14 PR toujours ouvertes (numeros 1, 2, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16), reconfirme via list_pull_requests (etat open, tri par derniere mise a jour) : aucune fusion depuis le 2026-08-29 (date de la premiere PR d'article), soit 26 jours au 2026-09-24, et aucune nouvelle PR depuis le 2026-08-22 (33 jours). Seules les PR 3 et 11 (corrections du prompt de reference) sont fusionnees. Point signale avec une insistance croissante depuis plusieurs semaines, sans reponse a ce jour.
+
+### Decision de production
+
+Aucun sujet n'a franchi le seuil de 14/25 ce run (0 suggestion exploitable sur 16 requetes, plus faible resultat de la serie). Aucun nouvel article produit ni mis a jour. Conforme a la regle qu'une journee sans article publie est normale, une journee sans veille ne l'est pas (paragraphe 4.1), et a la priorite qualite avant quota (paragraphe 8.4).
+
+Repartition par pilier inchangee depuis le 2026-09-11 : pilier 1 = 8/14 (~57%), pilier 2 = 4/14 (~29%), pilier 3 = 2/14 (~14%), proche de la cible 60/30/10.
+
 ## Decision prise ce run (2026-09-22)
 
 0 nouvel article, 0 enrichissement. Ecart de run de 4 jours (dernier rapport le 2026-09-18, aucune execution constatee les 09-19/20/21). Rotation testee ce run, 13 requetes sur des angles non essayes precedemment (voir liste complete dans le rapport du jour .seo/rapports/2026-09-22.md) : avis client societe de gardiennage Maroc, comparatif logiciel gardiennage, societe de securite amende cahier des charges, modele main courante gardiennage, erreur de pointage agent de securite, loi 32.26 agents de securite, gestion de flotte agents de securite, rapport de ronde PDF, societe de securite cahier des charges type, combien coute une ronde de securite, journee de travail agent de securite Maroc loi, logiciel de securite privee avis, cahier des charges securite privee modele.
@@ -72,7 +94,7 @@ Toutes les autres requetes : 0 suggestion, regime pauvre en autocomplete confirm
 
 Decouverte majeure ce run, documentee en detail dans .seo/repo-map.md et .seo/rapports/2026-09-12.md : en verifiant directement le site live (sitemap.xml, robots.txt, pages /articles/slug), il apparait que 12 des 14 articles produits par cet agent sont deja en ligne sur optimasprotect.ma, avec un contenu quasi identique aux branches article, alors qu'aucune des PR correspondantes n'a ete fusionnee sur GitHub. Cela nuance fortement l'alerte historique sur l'absence de generateur de site connecte, et souleve un point a clarifier par l'utilisateur sur l'articulation entre ce mecanisme de publication et la relecture humaine prevue en Phase 1.
 
-Veille concurrentielle (recherche web ce run) : SEKUR / SEKUR Africa toujours en tarification EUR uniquement pour l'offre France, opacite MAD toujours confirmee cote Maroc, aucun changement de positionnement detecte. Trackforce Valiant toujours positionne a l'international, pricing sur devis, aucune adaptation Maroc identifiee. Aucun nouvel acteur marocain detecte au-dela de secumall.ma et kver.ma, deja documentes.
+Veille concurrentielle (recherche web ce run) : SEKUR / SEKUR Africa toujours en tarification EUR uniquement pour l'offre France, opacite MAD toujours confirmed cote Maroc, aucun changement de positionnement detecte. Trackforce Valiant toujours positionne a l'international, pricing sur devis, aucune adaptation Maroc identifiee. Aucun nouvel acteur marocain detecte au-dela de secumall.ma et kver.ma, deja documentes.
 
 Alerte outillage ce run : le bac a sable Bash de cette session est reste indisponible toute la duree du run (meme erreur de montage Windows du 8 septembre). Contournement applique avec succes via le navigateur integre.
 
